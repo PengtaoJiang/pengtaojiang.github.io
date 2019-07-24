@@ -2,7 +2,7 @@
 title: Peng-Tao Jiang (姜鹏涛)
 feature_text: |
    About me
-feature_image: "https://picsum.photos/2560/600?image=873"
+feature_image: "jpt.jpg"
 excerpt: "About me"
 aside: true
 ---
