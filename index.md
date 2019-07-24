@@ -14,6 +14,6 @@ learning, semantic segmentation.
 ## Publications
 
 >  ***Integral Object Mining via Online Attention Accumulation***       
-  <sub>**Peng-Tao Jiang**, Qibin Hou, Yang Cao, Ming-Ming Cheng, Yunchao Wei, Hong-Kai Xiong
+  <sub>**Peng-Tao Jiang**, Qibin Hou, Yang Cao, Ming-Ming Cheng, Yunchao Wei, Hong-Kai Xiong \
   IEEE International Conference on Computer Vision (ICCV), 2019  
   [PDF] [Project page] <font color="#660000">[Code]</font></sub>   
