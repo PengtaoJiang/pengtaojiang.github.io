@@ -1,5 +1,4 @@
-I am a second-year PhD student at NKU, advised by Prof. Ming-Ming Cheng. I received my undergraduate 
-degree from Xidian University, working with Zhuowen Tu. I have also spent time at Sensetime. 
+I am a second-year PhD student at NKU, advised by Prof. Ming-Ming Cheng. I received my undergraduate degree from Xidian University. My research interests include weakly-supervised learning, semantic segmentation.
 
 ## News
 
