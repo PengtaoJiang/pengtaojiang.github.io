@@ -15,3 +15,10 @@ My name is Peng-Tao Jiang (姜鹏涛), I am a second-year PhD student at NKU, ad
   <sub>**Peng-Tao Jiang**, Qibin Hou, Yang Cao, Ming-Ming Cheng, Yunchao Wei, Hong-Kai Xiong    
   IEEE International Conference on Computer Vision (ICCV), 2019   
   [PDF] [Project page] <font color="#660000">[Code]</font></sub>   
+
+>  ***Self-Erasing Network for Integral Object Attention***       
+  <sub> DEL: Deep Embedding Learning for Efficient Image Segmentation  
+  Neural Information Processing Systems (NeurIPS), 2018   
+  [PDF] [Project page] <font color="#660000">[Code]</font></sub>  
+  
+
