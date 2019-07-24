@@ -1,5 +1,6 @@
 I am a second-year PhD student at NKU, advised by Prof. Ming-Ming Cheng. I received my undergraduate degree from Xidian University. 
-My research interests include weakly-supervised learning, semantic segmentation.
+My research interests include weakly-supervised 
+learning, semantic segmentation.
 
 ## News
 
@@ -12,8 +13,7 @@ My research interests include weakly-supervised learning, semantic segmentation.
 
 ## Publications
 
->  ***Deeply Supervised Salient Object Detection with Short Connections***       
-  <sub>**Qibin Hou**, Ming-Ming Cheng, Xiaowei Hu, Ali Borji, Zhuowen Tu, Philip Torr  
-  IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2017   
-  IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2019   
+>  ***Integral Object Mining via Online Attention Accumulation***       
+  <sub>**Peng-Tao Jiang**, Qibin Hou, Yang Cao, Ming-Ming Cheng, Yunchao Wei, Hong-Kai Xiong
+  IEEE International Conference on Computer Vision (ICCV), 2019  
   [PDF] [Project page] <font color="#660000">[Code]</font></sub>
