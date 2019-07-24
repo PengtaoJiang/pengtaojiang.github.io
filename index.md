@@ -1,4 +1,4 @@
-### Peng-Tao Jiang (姜鹏涛)
+title: Peng-Tao Jiang (姜鹏涛)
 
 <img src="jpt.jpg" width="130" height="170" alt="Me" align=right>
 
