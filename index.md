@@ -1,5 +1,5 @@
 Peng-Tao Jiang (姜鹏涛)
-![Me](jpt.jpg)   
+<img src="jpt.jpg" width="200" height="250" alt="Me" align=left>
 
 I am a second-year PhD student at NKU, advised by Prof. Ming-Ming Cheng. I received my bachelor degree from Xidian University. My research interests include weakly-supervised learning, semantic segmentation.
 
