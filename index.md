@@ -6,7 +6,7 @@ My name is Peng-Tao Jiang (姜鹏涛), I am a second-year PhD student at NKU, ad
 
 ## Education
 
-+ 2017-    : Nankai University
++ 2017-now : Nankai University
 + 2013-2017: Xidian University
 
 ## Publications
