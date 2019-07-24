@@ -3,13 +3,13 @@ theme: minima  #jekyll-theme-cayman
 title: Peng-Tao Jiang's Homepage
 
 # User settings
-#author: Peng-Tao Jiang
-#username: Peng-Tao Jiang
-#user_description: Peng-Tao Jiang is a second-year PhD student at NKU, advised by Prof. Ming-Ming Cheng.
-#user_title: phd student
+author: Peng-Tao Jiang
+username: Peng-Tao Jiang
+user_description: Peng-Tao Jiang is a second-year PhD student at NKU, advised by Prof. Ming-Ming Cheng.
+user_title: phd student
 email: pt.jiang@mail.nankai.edu.cn
-#description: > # this means to ignore newlines until "show_excerpts:"
-#show_excerpts: false
+description: > # this means to ignore newlines until "show_excerpts:"
+show_excerpts: false
 
 minima:
   date_format: "%b %-d, %Y"
