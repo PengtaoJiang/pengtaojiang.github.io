@@ -6,6 +6,7 @@ feature_image: ![avatar](jpt.png)
 excerpt: "About me"
 aside: true
 ---
+![avatar](jpt.png)
 
 I am a second-year PhD student at NKU, advised by Prof. Ming-Ming Cheng. I received my bachelor degree from Xidian University. My research interests include weakly-supervised learning, semantic segmentation.
 
