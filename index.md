@@ -1,5 +1,3 @@
-<img src="jpt.jpg" width="130" height="170" alt="Me" align=right>
-
 ## Biography
 
 
