@@ -1,5 +1,6 @@
 I am a second-year PhD student at NKU, advised by Prof. Ming-Ming Cheng. I received my undergraduate degree from Xidian University. 
-My research interests include weakly-supervised learning, semantic segmentation.
+My research interests include weakly-supervised  
+learning, semantic segmentation.
 
 ## News
 
@@ -13,6 +14,6 @@ My research interests include weakly-supervised learning, semantic segmentation.
 ## Publications
 
 >  ***Integral Object Mining via Online Attention Accumulation***       
-  <sub>**Peng-Tao Jiang**, Qibin Hou, Yang Cao, Ming-Ming Cheng, Yunchao Wei, Hong-Kai Xiong   
-  IEEE International Conference on Computer Vision (ICCV), 2019  
+  <sub>**Peng-Tao Jiang**, Qibin Hou, Yang Cao, Ming-Ming Cheng, Yunchao Wei, Hong-Kai Xiong    
+  IEEE International Conference on Computer Vision (ICCV), 2019   
   [PDF] [Project page] <font color="#660000">[Code]</font></sub>   
