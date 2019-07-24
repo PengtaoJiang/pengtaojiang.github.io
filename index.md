@@ -1,4 +1,5 @@
-I am a second-year PhD student at NKU, advised by Prof. Ming-Ming Cheng. I received my undergraduate degree from Xidian University. My research interests include weakly-supervised learning, semantic segmentation.
+I am a second-year PhD student at NKU, advised by Prof. Ming-Ming Cheng. I received my undergraduate degree from Xidian University. 
+My research interests include weakly-supervised learning, semantic segmentation.
 
 ## News
 
