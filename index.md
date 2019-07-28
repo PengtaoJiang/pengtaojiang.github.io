@@ -23,7 +23,7 @@ My name is Peng-Tao Jiang (姜鹏涛), I am a second-year PhD student at NKU, ad
   Neural Information Processing Systems (NeurIPS), 2018   
   [[PDF]](https://arxiv.org/pdf/1810.09821.pdf) [[Project page]](http://mmcheng.net/zh/SeeNet/) [[Code]](https://github.com/Andrew-Qibin/SeeNet)
   
->  ***DEL: Deep Embedding Learning for Efficient Image Segmentation***       
+>  **DEL: Deep Embedding Learning for Efficient Image Segmentation**       
   <sub>Yun Liu, **Peng-Tao Jiang**, Vahan Petrosyan, Shi-Jie Li, Jiawang Bian, Le Zhang, Ming-Ming Cheng  
   International Joint Conference on Artificial Intelligence (IJCAI-ECAI-18), 2018   
   [[PDF]](https://www.ijcai.org/proceedings/2018/0120.pdf) [[Project page]](https://mmcheng.net/zh/del/) [[Code]](https://github.com/PengtaoJiang/del)
