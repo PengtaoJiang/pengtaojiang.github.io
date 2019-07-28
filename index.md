@@ -18,7 +18,7 @@ My name is Peng-Tao Jiang (姜鹏涛), I am a second-year PhD student at NKU, ad
   IEEE International Conference on Computer Vision (ICCV), 2019   
   [PDF] [Project page] [Code]   
 
->  ***Self-Erasing Network for Integral Object Attention***       
+>  **Self-Erasing Network for Integral Object Attention**      
   <sub>Qibin Hou, **Peng-Tao Jiang**, Yunchao Wei, Ming-Ming Cheng   
   Neural Information Processing Systems (NeurIPS), 2018   
   [[PDF]](https://arxiv.org/pdf/1810.09821.pdf) [[Project page]](http://mmcheng.net/zh/SeeNet/) [[Code]](https://github.com/Andrew-Qibin/SeeNet)
