@@ -21,7 +21,7 @@ My name is Peng-Tao Jiang (姜鹏涛), I am a second-year PhD student at NKU, ad
 >  ***Self-Erasing Network for Integral Object Attention***       
   <sub>Qibin Hou, **Peng-Tao Jiang**, Yunchao Wei, Ming-Ming Cheng   
   Neural Information Processing Systems (NeurIPS), 2018   
-  [[PDF]](https://arxiv.org/pdf/1810.09821.pdf) [Project page] <font color="#660000">[Code]</font></sub>  
+  [[PDF]](https://arxiv.org/pdf/1810.09821.pdf) [[Project page]](https://mmcheng.net/zh/del/) <font color="#660000">[[Code]](https://github.com/PengtaoJiang/del)</font></sub>  
   
 >  ***DEL: Deep Embedding Learning for Efficient Image Segmentation***       
   <sub>Yun Liu, **Peng-Tao Jiang**, Vahan Petrosyan, Shi-Jie Li, Jiawang Bian, Le Zhang, Ming-Ming Cheng  
