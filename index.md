@@ -26,4 +26,4 @@ My name is Peng-Tao Jiang (姜鹏涛), I am a second-year PhD student at NKU, ad
 >  ***DEL: Deep Embedding Learning for Efficient Image Segmentation***       
   <sub>Yun Liu, **Peng-Tao Jiang**, Vahan Petrosyan, Shi-Jie Li, Jiawang Bian, Le Zhang, Ming-Ming Cheng  
   International Joint Conference on Artificial Intelligence (IJCAI-ECAI-18), 2018   
-  [PDF] [Project page] <font color="#660000">[Code]</font></sub>  
+  [[PDF]] [Project page] <font color="#660000">[Code]</font></sub>  
