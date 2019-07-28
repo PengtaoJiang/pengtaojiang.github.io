@@ -1,6 +1,6 @@
 ![A picture of me](https://raw.githubusercontent.com/PengtaoJiang/pengtaojiang.github.io/master/jpt1.jpg){: style="float: right; margin-right: 7px; margin-top: 0px;" height="140" width="110"}
 
-My name is Peng-Tao Jiang (姜鹏涛), I am a second-year PhD student at NKU, advised by Prof. Ming-Ming Cheng. I received my bachelor degree from Xidian University. My research interests include weakly-supervised learning, semantic segmentation.
+My name is Peng-Tao Jiang (姜鹏涛), I am a second-year PhD student at NKU, advised by [Prof. Ming-Ming Cheng](https://mmcheng.net/zh/cmm/). I received my bachelor degree from Xidian University. My research interests include weakly-supervised learning, semantic segmentation.
 
 ## News
 
@@ -21,7 +21,7 @@ My name is Peng-Tao Jiang (姜鹏涛), I am a second-year PhD student at NKU, ad
 >  ***Self-Erasing Network for Integral Object Attention***       
   <sub>Qibin Hou, **Peng-Tao Jiang**, Yunchao Wei, Ming-Ming Cheng   
   Neural Information Processing Systems (NeurIPS), 2018   
-  [PDF] [Project page] <font color="#660000">[Code]</font></sub>  
+  [PDF](https://arxiv.org/pdf/1810.09821.pdf) [Project page] <font color="#660000">[Code]</font></sub>  
   
 >  ***DEL: Deep Embedding Learning for Efficient Image Segmentation***       
   <sub>Yun Liu, **Peng-Tao Jiang**, Vahan Petrosyan, Shi-Jie Li, Jiawang Bian, Le Zhang, Ming-Ming Cheng  
