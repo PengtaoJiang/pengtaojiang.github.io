@@ -16,7 +16,7 @@ My name is Peng-Tao Jiang (姜鹏涛), I am a second-year PhD student at NKU, ad
 >  **Integral Object Mining via Online Attention Accumulation**       
   <sub>**Peng-Tao Jiang**, Qibin Hou, Yang Cao, Ming-Ming Cheng, Yunchao Wei, Hong-Kai Xiong    
   IEEE International Conference on Computer Vision (ICCV), 2019   
-  [PDF] [Project page] [Code]   
+  [PDF] [[Project page]](https://mmcheng.net/oaa/) [Code]   
 
 >  **Self-Erasing Network for Integral Object Attention**      
   <sub>Qibin Hou, **Peng-Tao Jiang**, Yunchao Wei, Ming-Ming Cheng   
