@@ -14,7 +14,7 @@ My name is Peng-Tao Jiang (姜鹏涛), I am a second-year PhD student at NKU, ad
 
 
 ## Pre-print
-<blockquote style="color: black;  border-width: 12px; border-color: orange">   
+<blockquote style="color: black;  border-width: 10px; border-color: orange">   
   <h4><b>Delving Deep into Label Smoothing</b></h4>   
   <sub><p style="line-height:15px"> Changbin Zhang*, <b>Peng-Tao Jiang*</b>, Qibin Hou, Yunchao Wei, Qi Han, Zhen Li, Ming-Ming~Cheng (* denotes equal contribution.)</p> 
   </sub>
@@ -32,7 +32,7 @@ My name is Peng-Tao Jiang (姜鹏涛), I am a second-year PhD student at NKU, ad
   <sub>Qibin Hou, **Peng-Tao Jiang**, Yunchao Wei, Ming-Ming Cheng   
   Neural Information Processing Systems (NeurIPS), 2018   
   [[PDF]](https://arxiv.org/pdf/1810.09821.pdf) [[Project page]](http://mmcheng.net/zh/SeeNet/) [[Code]](https://github.com/Andrew-Qibin/SeeNet)
-  
+
 >  **DEL: Deep Embedding Learning for Efficient Image Segmentation**       
   <sub>Yun Liu, **Peng-Tao Jiang**, Vahan Petrosyan, Shi-Jie Li, Jiawang Bian, Le Zhang, Ming-Ming Cheng  
   International Joint Conference on Artificial Intelligence (IJCAI-ECAI-18), 2018   
