@@ -11,6 +11,7 @@ My name is Peng-Tao Jiang (姜鹏涛), I am a second-year PhD student at NKU, ad
 + 2017-now : Nankai University
 + 2013-2017: Xidian University
 
+
 ## Pre-print
 >  **Delving Deep into Label Smoothing**       
   <sub>Changbin Zhang*, **Peng-Tao Jiang***, Qibin Hou, Yunchao Wei, Qi Han, Zhen Li, Ming-Ming~Cheng (* denotes equal contribution.)
