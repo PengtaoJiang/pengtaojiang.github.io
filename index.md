@@ -13,9 +13,11 @@ My name is Peng-Tao Jiang (姜鹏涛), I am a second-year PhD student at NKU, ad
 
 
 ## Pre-print
->  **Delving Deep into Label Smoothing**       
-  <sub>Changbin Zhang*, **Peng-Tao Jiang***, Qibin Hou, Yunchao Wei, Qi Han, Zhen Li, Ming-Ming~Cheng (* denotes equal contribution.)
-
+<blockquote style="color: black;  border-width: 12px; border-color: orange">   
+  <h4><b>Delving Deep into Label Smoothing</b></h4>   
+  <sub><p style="line-height:15px"> Changbin Zhang*, <b>Peng-Tao Jiang*</b>, Qibin Hou, Yunchao Wei, Qi Han, Zhen Li, Ming-Ming~Cheng (* denotes equal contribution.)</p> 
+  </sub>
+</blockquote>
 
 ## Publications
 
