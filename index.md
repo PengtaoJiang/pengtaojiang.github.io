@@ -18,7 +18,7 @@ My name is Peng-Tao Jiang (姜鹏涛), I am a second-year PhD student at NKU, ad
 ## Publications
 
 >  **LayerCAM: Exploring Hierarchical Class Activation Maps For Localization**       
-  <sub><b>Peng-Tao Jiang</b>, Changbin Zhang*, Qibin Hou, Ming-Ming~Cheng, Yunchao Wei (* denotes equal contribution.)  
+  <sub><b>Peng-Tao Jiang*</b>, Changbin Zhang*, Qibin Hou, Ming-Ming~Cheng, Yunchao Wei (* denotes equal contribution.)  
   IEEE IEEE Transactions on Image Processing (TIP 2021)   
   [PDF][Project page][[Code]](https://github.com/PengtaoJiang/LayerCAM.git)
   
