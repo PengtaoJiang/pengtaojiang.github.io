@@ -18,7 +18,7 @@ My name is Peng-Tao Jiang (姜鹏涛), I am a second-year PhD student at NKU, ad
 ## Publications
 
 >  **Online Attention Accumulation for Weakly Supervised Semantic Segmentation**       
-  <sub><b>Peng-Tao Jiang*</b>, Ling-Hao Han*, Qibin Hou, Ming-Ming~Cheng, Yunchao Wei (* denotes equal contribution.)  
+  <sub><b>Peng-Tao Jiang</b>, Ling-Hao Han*, Qibin Hou, Ming-Ming~Cheng, Yunchao Wei (* denotes equal contribution.)  
   IEEE IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI 2021)   
   [PDF][Project page][Code]
   
