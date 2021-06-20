@@ -19,7 +19,7 @@ My name is Peng-Tao Jiang (姜鹏涛), I am a second-year PhD student at NKU, ad
 
 >  **Online Attention Accumulation for Weakly Supervised Semantic Segmentation**       
   <sub><b>Peng-Tao Jiang*</b>, Ling-Hao Han*, Qibin Hou, Ming-Ming~Cheng, Yunchao Wei (* denotes equal contribution.)  
-  IEEE IEEE Transactions on Image Processing (TPAMI 2021)   
+  IEEE IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI 2021)   
   [PDF][Project page][Code]
   
 >  **LayerCAM: Exploring Hierarchical Class Activation Maps For Localization**       
