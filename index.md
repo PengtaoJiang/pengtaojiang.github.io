@@ -13,17 +13,25 @@ My name is Peng-Tao Jiang (姜鹏涛), I am a second-year PhD student at NKU, ad
 + 2013-2017: Xidian University
 
 
-## Pre-print
-<blockquote style="color: black;  border-width: 5px; border-color: orange">   
-  <h4><b>Delving Deep into Label Smoothing</b></h4>   
-  <sub><p style="line-height:15px"> Changbin Zhang*, <b>Peng-Tao Jiang*</b>, Qibin Hou, Yunchao Wei, Qi Han, Zhen Li, Ming-Ming~Cheng (* denotes equal contribution.)</p>
-  <p style="line-height:15px"> <a href="http://arxiv.org/abs/2011.12562">[Arxiv]</a></p> 
-  </sub>
-</blockquote>
 
 
 ## Publications
 
+>  **Online Attention Accumulation for Weakly Supervised Semantic Segmentation**       
+  <sub><b>Peng-Tao Jiang</b>, Ling-Hao Han*, Qibin Hou, Ming-Ming~Cheng, Yunchao Wei (* denotes equal contribution.)  
+  IEEE IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI 2021)   
+  [PDF][Project page][Code]
+  
+>  **LayerCAM: Exploring Hierarchical Class Activation Maps For Localization**       
+  <sub><b>Peng-Tao Jiang</b>, Changbin Zhang*, Qibin Hou, Ming-Ming~Cheng, Yunchao Wei (* denotes equal contribution.)  
+  IEEE IEEE Transactions on Image Processing (TIP 2021)   
+  [PDF][Project page][[Code]](https://github.com/PengtaoJiang/LayerCAM.git)
+  
+>  **Delving Deep into Label Smoothing**       
+  <sub>Changbin Zhang*, <b>Peng-Tao Jiang*</b>, Qibin Hou, Yunchao Wei, Qi Han, Zhen Li, Ming-Ming~Cheng (* denotes equal contribution.)  
+  IEEE IEEE Transactions on Image Processing (TIP 2021)   
+  [[PDF]](http://arxiv.org/abs/2011.12562) [Project page][Code]
+  
 >  **Integral Object Mining via Online Attention Accumulation**       
   <sub>**Peng-Tao Jiang**, Qibin Hou, Yang Cao, Ming-Ming Cheng, Yunchao Wei, Hong-Kai Xiong    
   IEEE International Conference on Computer Vision (ICCV), 2019   
