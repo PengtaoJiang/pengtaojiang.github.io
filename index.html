@@ -1,591 +1,1380 @@
-<html>
-<head>
-  <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<!DOCTYPE HTML>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
   <title>Peng-Tao Jiang</title>
-  <meta content="Peng-Tao Jiang, pengtaojiang.github.io" name="keywords" />
-  <style media="screen" type="text/css">html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
-  border: 0pt none;
-  font-family: inherit;
-  font-size: 100%;
-  font-style: inherit;
-  font-weight: inherit;
-  margin: 0pt;
-  outline-color: invert;
-  outline-style: none;
-  outline-width: 0pt;
-  padding: 0pt;
-  vertical-align: baseline;
-}
-a {
-  color: #1772d0;
-  text-decoration:none;
-}
-a:focus, a:hover {
-  color: #f09228;
-  text-decoration:none;
-}
-a.paper {
-  font-weight: bold;
-  font-size: 14pt;
-}
-b.paper {
-  font-weight: bold;
-  font-size: 14pt;
-}
-* {
-  margin: 0pt;
-  padding: 0pt;
-}
-body {
-  position: relative;
-  margin: 3em auto 2em auto;
-  width: 1000px;
-  font-family: Lato, Verdana, Helvetica, sans-serif;
-  font-size: 16px;
-  background: #eee;
-}
-h2 {
-  font-family: Lato, Verdana, Helvetica, sans-serif;
-  font-size: 17pt;
-  font-weight: 700;
-}
-h3 {
-  font-family: Lato, Verdana, Helvetica, sans-serif;
-  font-size: 18px;
-  font-weight: 700;
-}
-strong {
-  font-family: Lato, Verdana, Helvetica, sans-serif;
-  font-size: 15px;
-  font-weight:bold;
-}
-ul { 
-  list-style: circle;
-}
-img {
-  border: none;
-}
-li {
-  padding-bottom: 0.5em;
-  margin-left: 1.4em;
-}
-alert {
-  font-family: Lato, Verdana, Helvetica, sans-serif;
-  font-size: 15px;
-  font-weight: bold;
-  color: #FF0000;
-}
-em, i {
-  font-style:italic;
-}
-div.section {
-  clear: both;
-  margin-bottom: 1.5em;
-  background: #eee;
-}
-div.spanner {
-  clear: both;
-}
-div.paper {
-  clear: both;
-  margin-top: 0.5em;
-  margin-bottom: 1em;
-  border: 1px solid #ddd;
-  background: #fff;
-  padding: 1em 1em 1em 1em;
-}
-div.paper div {
-  padding-left: 230px;
-}
-img.paper {
-  margin-bottom: 0.5em;
-  float: left;
-  width: 200px;
-}
-span.blurb {
-  font-style:italic;
-  display:block;
-  margin-top:0.75em;
-  margin-bottom:0.5em;
-}
-pre, code {
-  font-family: 'Lucida Console', 'Andale Mono', 'Courier', monospaced;
-  margin: 1em 0;
-  padding: 0;
-}
-div.paper pre {
-  font-size: 0.9em;
-}
-</style>
 
-<link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" /><!--<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>--><!--<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>--><!--<link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz' rel='stylesheet' type='text/css'>-->
+  <meta name="author" content="Jon Barron">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>Ⓙ</text></svg>">
+
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,600">
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Roboto" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <!-- <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
+  <script src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
+    integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous">
+    </script>
+  <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+  </script>
 </head>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-  ga('create', 'UA-45959174-3', 'kailigo.github.io');
-  ga('send', 'pageview');
-</script>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-  ga('create', 'UA-66888300-1', 'auto');
-  ga('send', 'pageview');
-</script>
+
 <body>
-<div style="margin-bottom: 1em; border: 1px solid #ddd; background-color: #fff; padding: 1em; height: 140px;">
-<div style="margin: 0px auto; width: 100%;">
-<img title="Peng-Tao" style="float: left; padding-left: .5em; height: 140px;" src="jpt2.jpeg" />
-<div style="padding-left: 12em; vertical-align: top; height: 120px;"><span style="line-height: 150%; font-size: 20pt;">Peng-Tao Jiang</span><br />
-<span><strong>vivo researcher</strong></span><br />
-<span><strong>School  </strong>: Nankai University </span><br />  
-<span><strong>Email  </strong>: pt.jiang [at] vivo.com</span><br />  
-<span><strong>Email  </strong>: pt.jiang [at] mail.nankai.edu.cn </span><br />  
-<strong><a href='https://github.com/PengtaoJiang'>Github</a></strong>  &nbsp &nbsp
-<strong><a href='https://scholar.google.com/citations?user=85QJ_i4AAAAJ&hl=en'>Google Scholar</a></strong></span><br/>
-</div>
-</div>
-</div>
-<!--<div style="clear: both; background-color: #fff; margin-top: 1.5em; padding: .2em; padding-left: .3em;">-->
-
-<div style="clear: both;">
-<div class="section">
-<div class="paper">
-  <h2>Biography</h2>
-  <ul>
-    <li>My name is Peng-Tao Jiang (姜鹏涛). Currently, I am a lead researcher & engineer in the 
-    <a href="https://vivocamera.github.io/" target="_blank" rel="noopener">Quality Enhancement Center of vivo</a>. 
-    Before that, I was a post-doc researcher at Zhejiang University, working with 
-    <a href="https://cshen.github.io/" target="_blank" rel="noopener">Prof. Chunhua Shen</a>. I received my PhD from 
-    Nankai University, advised by <a href="https://mmcheng.net/zh/cmm/" target="_blank" rel="noopener">Prof. Ming-Ming Cheng</a>. 
-    I have also completed internships at <a href="https://www.sensetime.com/cn/" target="_blank" rel="noopener">SenseTime</a> 
-    and <a href="https://open.youtu.qq.com/#/open" target="_blank" rel="noopener">Tencent YouTu</a>.
-  </li>
-</ul>
-  <div class="section-spacer"></div>
-  <h2>Research Interests</h2>
-  <ul class="research-interests">
-    <li>
-      <strong>Universal scene parsing and understanding:</strong> 
-      DepthMaster (arXiv 2024), IPSeg (IJCV), TSP6K (CVPR 2024)
-    </li>
-    <li>
-      <strong>Unified architecture for dense prediction:</strong> 
-      MLoRE (CVPR 2024), TaskDiffusion (ICLR 2025)
-    </li>
-    <li>
-      <strong>Mobile image enhancement:</strong> 
-      RRW (CVPR24), LAL (ICML25), ConsisSR (arxiv 2024)
-    </li>
-    <li>
-      <strong>Generative models and applications:</strong> 
-      B-TTDM (ECCV), DDAEBM (ICML24), ADM (ACM MM24)
-    </li>
-  </ul>
-  <div class="section-spacer"></div>
-  <ul class="experience">
-  <h2>Experience</h2>
-  <li> 
-    <strong>2017-2022:</strong>  Computer Science in Nankai University <br>  
-  </li>
-  <li> 
-    <strong>2022-2023:</strong>  Post-doc Researcher in Zhejiang University <br> 
-  </li>
-  <li>  
-    <strong>2023-now:</strong>  Researcher in vivo 
-  </li>
-
-  <div class="section-spacer"></div>
-<h2>Hiring</h2>
-<ul> 
-  <p style="color: red;">We are hiring self-motivated research interns and full-time researchers. 
-  If you are interested in our group, please feel free to contact us.   
-  </p>  
-</ul>
-</div>
 
 
 
-<div style="clear: both;">
-  <div class="section">
-  <h2> Pre-print </h2>
+  <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+    <tr style="padding:0px">
+      <td style="padding:0px">
+
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr>
+          <td style="padding:20px;width:100%;vertical-align:middle">
+            <nav class="navbar navbar-default navbar-fixed-top">
+              <div class="container">
+                <div class="navbar-header page-scroll">
+                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                  <a class='navbar-brand page-scroll' href='/'>
+                    <span style='font-family:"Open Sans"; font-weight:300'>Peng-Tao Jiang</span>
+                  </a>
+                </div>
+
+                <div id="navbar" class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                  <ul class="nav navbar-nav navbar-right">
+                      <li style="font-size:20px"><a class='name' href="">Home</a></li>
+
+
+                      <li style="font-size:20px"><a class='name' href="#research">Research</a></li>
+                    <li style="font-size:20px"><a class='name' href="#industry">Industry</a></li>
+                    <!-- <li style="font-size:20px"><a class='name' href="#awards">Awards</a></li> -->
+                    <li style="font-size:20px"><a class='name' href="#service">Service</a></li>
+                    <!-- <li style="font-size:20px"><a class='name' href="#teaching">Teaching</a></li> -->
+                  </ul>
+                </div>
+              </div>
+            </nav>
+
+            <!-- from https://yangekun.gitee.io/blog/2018/12/14/2018-12-14-Bootstrap%E5%AF%BC%E8%88%AA%E6%A0%8F%E7%9A%84%E8%87%AA%E5%8A%A8%E6%8A%98%E5%8F%A0%E9%9A%90%E8%97%8F/ -->
+            <script>
+                  $(window).scroll(function () {
+                //小屏幕下的导航条折叠
+                if ($(window).width() < 768) {
+                  //点击导航链接之后，把导航选项折叠起来
+                  $("#navbar a").click(function () {
+                    $("#navbar").collapse('hide');
+                  });
+                  //滚动屏幕时，把导航选项折叠起来
+                  $(window).scroll(function () {
+                    $("#navbar").collapse('hide');
+                  });
+                }
+              });
+            </script>
+
+          </td>
+          </tr>
+        </tbody></table>
+
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <br>
+          <tr style="padding:0px">
+            <td style="padding:2.5%;width:63%;vertical-align:middle">
+              <p style="text-align:center">
+                <name>Peng-Tao Jiang</name>
+              </p>
+              <p>My name is Peng-Tao Jiang (姜鹏涛). Currently, I am a lead researcher & engineer in the 
+              <a href="https://vivocamera.github.io/" target="_blank" rel="noopener">Quality Enhancement Center of vivo</a>. 
+              Before that, I was a post-doc researcher at Zhejiang University, working with 
+              <a href="https://cshen.github.io/" target="_blank" rel="noopener">Prof. Chunhua Shen</a>. I received my PhD from 
+              Nankai University, advised by <a href="https://mmcheng.net/zh/cmm/" target="_blank" rel="noopener">Prof. Ming-Ming Cheng</a>. 
+              I have also completed internships at <a href="https://www.sensetime.com/cn/" target="_blank" rel="noopener">SenseTime</a> 
+              and <a href="https://open.youtu.qq.com/#/open" target="_blank" rel="noopener">Tencent YouTu</a>.</p> 
+              
+              <p>
+              My recent research interests mainly focus on the following topics:
+              <li>
+                <strong>Universal scene parsing and understanding:</strong> 
+                SDMatte (ICCV25), DepthMaster (arXiv 2024), MLoRE (CVPR 2024), TaskDiffusion (ICLR 2025)
+              </li>
+              <li>
+                <strong>Mobile image enhancement:</strong> 
+                RRW (CVPR24), LAL (ICML25), ConsisSR (arxiv 2024)
+              </li>
+              <li>
+                <strong>Generative models and applications:</strong> 
+                B-TTDM (ECCV24), DDAEBM (ICML24), ADM (ACM MM24)
+              </li>
+              <li>
+                <strong>Photography editing:</strong> 
+                Any2Bokeh (arxiv 25), MagicTryOn (arxiv 25), PPC (NeurIPS25)
+              </li>
+              </p>
+
+              </p>
+              <p style="text-align:center">
+                <a href="mailto:pt.jiang@mail.nankai.edu.cn">Email</a> &nbsp/&nbsp
+                <a href="">CV</a> &nbsp/&nbsp
+                <!-- <a href="data/JonBarron-bio.txt">Bio</a> &nbsp/&nbsp -->
+                <a href="https://scholar.google.com/citations?user=85QJ_i4AAAAJ&hl=en">Google Scholar</a> &nbsp/&nbsp
+                <a href="https://github.com/PengtaoJiang">Github</a> 
+                <!-- <a href="https://orcid.org/0000-0003-3830-7094">Semantic Scholar</a> &nbsp/&nbsp -->  
+		<!-- <a href="https://www.linkedin.com/in/yang-cao-75b864148">LinkedIn</a> -->
+              </p>
+            </td>
+            <td style="padding:2.5%;width:40%;max-width:40%">
+              <img style="width:60%;max-width:100%" alt="profile photo" src="jpt2.jpeg" class='img-fluid'></a>
+            </td>
+          </tr>
+        </tbody></table>
+
+
+        <!-- <a id="news"></a>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr>
+            <td style="padding:20px;width:100%;vertical-align:middle">
+              <heading>News</heading>
+              <bar>One paper has been accepted at </td>
+            </td>
+          </tr> -->
+        <!-- </tbody></table> -->
+
+        <a id="research"></a>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr>
+            <td style="padding:20px;width:100%;vertical-align:middle">
+              <heading>Research</heading>
+              <br>* denotes equal contributions, # denotes corresponding authors.</br>
+            </td>
+          </tr>
+        </tbody></table>
+
+            <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+                <tr onmouseout="switchnerf_stop()" onmouseover="switchnerf_start()">
+                  <td style="padding:20px;width:25%;vertical-align:middle">
+                    <div id='switchnerf_still'><img src="imgs/q-ponder.jpg" width="200"></div>
+                  </td>
+                  <td width="75%" valign="middle">
+                     <!-- <a href="switchnerf"> -->
+                    <a href="https://arxiv.org/pdf/2506.05384?">
+                      <papertitle>Q-Ponder: A Unified Training Pipeline for Reasoning-based Visual Quality Assessment</papertitle>
+                    </a>
+                    <br>
+                    Zhuoxuan Cai, Jian Zhang, Xinbin Yuan, <strong>Peng-Tao Jiang</strong>, Wenxiang Chen, Bowen Tang, Lujian Yao, Qiyuan Wang, Jinwen Chen, Bo Li#
+                </br>
+                    <em>arxiv</em>, 2025
+                    <br>
+                    <a href="https://arxiv.org/pdf/2506.05384?">paper</a> 
+                    /<a href='https://github.com/vivoCameraResearch/Q-Ponder'>code</a> 
+                    /<a href='https://vivocameraresearch.github.io/qponder/'>project</a> 
+                    <br>
+                  </td>
+                </tr>
+
+
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+            <tr onmouseout="switchnerf_stop()" onmouseover="switchnerf_start()">
+              <td style="padding:20px;width:25%;vertical-align:middle">
+                <div id='switchnerf_still'><img src="imgs/any2bokeh.jpg" width="200"></div>
+              </td>
+              <td width="75%" valign="middle">
+                 <!-- <a href="switchnerf"> -->
+                <a href="https://arxiv.org/pdf/2505.21593">
+                  <papertitle>Any-to-Bokeh: Arbitrary-Subject Video Refocusing with Video Diffusion Model</papertitle>
+                </a>
+                <br>
+                Yang Yang*, Siming Zheng*, Jinwei Chen, Boxi Wu#, Xiaofei He, Deng Cai, Bo Li, <strong>Peng-Tao Jiang#</strong>
+            </br>
+                <em>arxiv</em>, 2025
+                <br>
+                <a href="https://arxiv.org/pdf/2505.21593">paper</a> 
+                /<a href='https://github.com/vivoCameraResearch/any-to-bokeh'>code</a> 
+                /<a href='https://vivocameraresearch.github.io/any2bokeh/'>project</a> 
+                <br>
+              </td>
+            </tr>
+
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+            <tr onmouseout="switchnerf_stop()" onmouseover="switchnerf_start()">
+              <td style="padding:20px;width:25%;vertical-align:middle">
+                <div id='switchnerf_still'><img src="imgs/magictryon.jpg" width="200"></div>
+              </td>
+              <td width="75%" valign="middle">
+                 <!-- <a href="switchnerf"> -->
+                <a href="https://arxiv.org/pdf/2505.21325">
+                  <papertitle>MagicTryOn: Harnessing Diffusion Transformer for Garment-Preserving Video Virtual Try-on</papertitle>
+                </a>
+                <br>
+                Guangyuan Li*, Siming Zheng*, Hao Zhang, Jinwei Chen, Junsheng Luan, Binkai Ou, Lei Zhao#, Bo Li, <strong>Peng-Tao Jiang#</strong>
+            </br>
+                <em>arxiv</em>, 2025
+                <br>
+                <a href="https://arxiv.org/pdf/2505.21325">paper</a> 
+                /<a href='https://github.com/vivoCameraResearch/Magic-TryOn'>code</a> 
+                /<a href='https://vivocameraresearch.github.io/magictryon/'>project</a> 
+                <br>
+              </td>
+            </tr>t 
+
+            <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+                <tr onmouseout="switchnerf_stop()" onmouseover="switchnerf_start()">
+                  <td style="padding:20px;width:25%;vertical-align:middle">
+                    <div id='switchnerf_still'><img src="imgs/depthmaster.jpg" width="200"></div>
+                  </td>
+                  <td width="75%" valign="middle">
+                     <!-- <a href="switchnerf"> -->
+                    <a href="https://arxiv.org/pdf/2501.02576">
+                      <papertitle>DepthMaster: Taming Diffusion Models for Monocular Depth Estimation</papertitle>
+                    </a>
+                    <br>
+                    Ziyang Song*, Zerong Wang*, Bo Li, Hao Zhang, Ruijie Zhu, Li Liu, <strong>Peng-Tao Jiang#</strong>, Tianzhu Zhang#
+                </br>
+                    <em>arxiv</em>, 2025
+                    <br>
+                    <a href="https://arxiv.org/pdf/2501.02576">paper</a> 
+                    /<a href='https://github.com/indu1ge/DepthMaster'>code</a> 
+                    /<a href='https://indu1ge.github.io/DepthMaster_page/'>project</a> 
+                    <br>
+                  </td>
+                </tr>
+
+                
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+            <tr onmouseout="switchnerf_stop()" onmouseover="switchnerf_start()">
+              <td style="padding:20px;width:25%;vertical-align:middle">
+                <div id='switchnerf_still'><img src="imgs/ppc.jpg" width="200"></div>
+              </td>
+              <td width="75%" valign="middle">
+                 <!-- <a href="switchnerf"> -->
+                <a href="https://arxiv.org/pdf/2505.20655?">
+                  <papertitle>Photography Perspective Composition: Towards Aesthetic Perspective Recommendation</papertitle>
+                </a>
+                <br>
+                Lujian Yao*, Siming Zheng*, Xinbin Yuan, Zhuoxuan Cai, Pu Wu, Jinwei Chen, Bo Li, <strong>Peng-Tao Jiang#</strong>
+            </br>
+                <em>NeurIPS</em>, 2025
+                <br>
+                <a href="https://arxiv.org/pdf/2505.20655?">paper</a> 
+                /<a href='https://github.com/vivoCameraResearch/p-p-c'>code</a> 
+                /<a href='https://vivocameraresearch.github.io/ppc'>project</a> 
+                <br>
+              </td>
+            </tr>
+            
+
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+            <tr onmouseout="switchnerf_stop()" onmouseover="switchnerf_start()">
+              <td style="padding:20px;width:25%;vertical-align:middle">
+                <div id='switchnerf_still'><img src="imgs/segui.png" width="200"></div>
+              </td>
+              <td width="75%" valign="middle">
+                 <!-- <a href="switchnerf"> -->
+                <a href="https://arxiv.org/abs/2505.12370">
+                  <papertitle>Enhancing Visual Grounding for GUI Agents via Self-Evolutionary Reinforcement Learning</papertitle>
+                </a>
+                <br>
+                Xinbin Yuan, Jian Zhang, Kaixin Li, Zhuoxuan Cai, Lujian Yao, Jie Chen, Enguang Wang, Qibin Hou, Jinwei Chen, <strong>Peng-Tao Jiang</strong>, Bo Li
+            </br>
+                <em>NeurIPS</em>, 2025
+                <br>
+                <!-- <a href="switchnerf">project page</a> / -->
+                <a href="https://arxiv.org/abs/2505.12370">paper</a> 
+                <!-- /<a href=''>code</a>  -->
+                <br>
+              </td>
+            </tr>
+
+            <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+                <tr onmouseout="switchnerf_stop()" onmouseover="switchnerf_start()">
+                  <td style="padding:20px;width:25%;vertical-align:middle">
+                    <div id='switchnerf_still'><img src="imgs/dprnet.jpg" width="200"></div>
+                  </td>
+                  <td width="75%" valign="middle">
+                     <!-- <a href="switchnerf"> -->
+                    <a href="https://arxiv.org/pdf/2412.01463">
+                      <papertitle>Learning Differential Pyramid Representation for Tone Mapping</papertitle>
+                    </a>
+                    <br>
+                    Qirui Yang, Yinbo Li, <strong>Peng-Tao Jiang</strong>, Qihua Cheng, Biting Yu, Yihao Liu, Huanjing Yue, Jingyu Yang
+                </br>
+                    <em>NeurIPS</em>, 2025
+                    <br>
+                    <a href="https://arxiv.org/pdf/2412.01463">paper</a> 
+                    /<a href='https://xxxxxx2024.github.io/DPRNet/'>demo</a> 
+                    <br>
+                  </td>
+                </tr>
+
+
+            <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+                    <tr onmouseout="switchnerf_stop()" onmouseover="switchnerf_start()">
+                      <td style="padding:20px;width:25%;vertical-align:middle">
+                        <div id='switchnerf_still'><img src="imgs/bbtdm.jpg" width="200"></div>
+                      </td>
+                      <td width="75%" valign="middle">
+                         <!-- <a href="switchnerf"> -->
+                        <a href="https://ieeexplore.ieee.org/abstract/document/11143960/">
+                          <papertitle>Bidirectional Beta-Tuned Diffusion Model</papertitle>
+                        </a>
+                        <br>
+                        Tianyi Zheng, Jiayang Zou, <strong>Peng-Tao Jiang</strong>, Hao Zhang, Jinwei Chen, Jia Wang, Bo Li
+                    </br>
+                        <em>TPAMI</em>, 2025
+                        <br>
+                        <a href="https://ieeexplore.ieee.org/abstract/document/11143960/">paper</a> 
+                        <!-- /<a href='https://github.com/vivoCameraResearch/p-p-c'>code</a>  -->
+                        <br>
+                      </td>
+                    </tr>
+
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+            <tr onmouseout="switchnerf_stop()" onmouseover="switchnerf_start()">
+              <td style="padding:20px;width:25%;vertical-align:middle">
+                <div id='switchnerf_still'><img src="imgs/dsdnet.jpg" width="200"></div>
+              </td>
+              <td width="75%" valign="middle">
+                 <!-- <a href="switchnerf"> -->
+                <a href="https://arxiv.org/abs/2504.15756">
+                  <papertitle>DSDNet: Raw Domain Demoireing via Dual Color-Space Synergy</papertitle>
+                </a>
+                <br>
+                Qirui Yang, Fangpu Zhang, Yeying Jin, Qihua Cheng, <strong>Peng-Tao Jiang</strong>, Huanjing Yue, Jingyu Yang
+            </br>
+                <em>ACM MM</em>, 2025
+                <br>
+                <!-- <a href="switchnerf">project page</a> / -->
+                <a href="https://arxiv.org/abs/2504.15756">paper</a> /
+                <a href='https://xxxxxxxxdsdnet.github.io/DSDNet/'>demo</a> 
+                <br>
+              </td>
+            </tr>
+
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+            <tr onmouseout="switchnerf_stop()" onmouseover="switchnerf_start()">
+              <td style="padding:20px;width:25%;vertical-align:middle">
+                <div id='switchnerf_still'><img src="imgs/sdmatte.jpg" width="200"></div>
+              </td>
+              <td width="75%" valign="middle">
+                 <!-- <a href="switchnerf"> -->
+                <a href="https://arxiv.org/pdf/2508.00443">
+                  <papertitle>SDMatte: Grafting Diffusion Models for Interactive Matting</papertitle>
+                </a>
+                <br>
+                Longfei Huang, Yu Liang, Hao Zhang, Jinwei Chen, Wei Dong, Lunde Chen, Wanyu Liu, Bo Li, <strong>Peng-Tao Jiang#</strong>
+            </br>
+                <em>ICCV</em>, 2025
+                <br>
+                <!-- <a href="switchnerf">project page</a> / -->
+                <a href="https://arxiv.org/pdf/2508.00443">paper</a> /
+                <a href='https://github.com/vivoCameraResearch/SDMatte'>code</a> 
+                <br>
+              </td>
+            </tr>
+            
+            <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+                <tr onmouseout="switchnerf_stop()" onmouseover="switchnerf_start()">
+                  <td style="padding:20px;width:25%;vertical-align:middle">
+                    <div id='switchnerf_still'><img src="imgs/pgformer.jpg" width="200"></div>
+                  </td>
+                  <td width="75%" valign="middle">
+                     <!-- <a href="switchnerf"> -->
+                    <a href="https://arxiv.org/abs/2306.03374">
+                      <papertitle>PGformer: Proxy-Bridged Game Transformer for Multi-Person Highly Interactive Extreme Motion Prediction</papertitle>
+                    </a>
+                    <br>
+                    Yanwen Fang, Jintai Chen, <strong>Peng-Tao Jiang</strong>, Chao Li, Yifeng Geng, Eddy K. F. Lam, Guodong Li
+                </br>
+                    <em>ICCV</em>, 2025
+                    <br>
+                    <!-- <a href="switchnerf">project page</a> / -->
+                    <a href="hhttps://arxiv.org/abs/2306.03374">paper</a> /
+                    <a href=''>code</a> 
+                    <br>
+                  </td>
+                </tr>
+            
+                
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+            <tr onmouseout="switchnerf_stop()" onmouseover="switchnerf_start()">
+              <td style="padding:20px;width:25%;vertical-align:middle">
+                <div id='switchnerf_still'><img src="imgs/MOERL.jpg" width="200"></div>
+              </td>
+              <td width="75%" valign="middle">
+                 <!-- <a href="switchnerf"> -->
+                <a href="">
+                  <papertitle>MOERL: When Mixture-of-Experts Meet Reinforcement Learning for Adverse Weather Image Restoration</papertitle>
+                </a>
+                <br>
+                Tao Wang, Peiwen Xia, Bo Li, <strong>Peng-Tao Jiang</strong>, Zhe Kong, Kaihao Zhang, Tong Lu, Wenhan Luo
+                <br>
+                <em>ICCV</em>, 2025
+                <br>
+                <!-- <a href="switchnerf">project page</a> / -->
+                <a href="">paper</a> /
+                <a href=''>code</a> 
+                <br>
+              </td>
+            </tr>
+
+ <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+          <tr onmouseout="switchnerf_stop()" onmouseover="switchnerf_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div id='switchnerf_still'><img src="imgs/lal.jpg" width="200"></div>
+            </td>
+            <td width="75%" valign="middle">
+               <!-- <a href="switchnerf"> -->
+              <a href="https://arxiv.org/pdf/2406.00830.pdf">
+                <papertitle>Learning Adaptive Lighting via Channel-Aware Guidance</papertitle>
+              </a>
+              <br>
+              Qirui Yang*, <strong><u>Peng-Tao Jiang*#</u></strong>, Hao Zhang, Jinwei Chen, Bo Li, Huanjing Yue, Jingyu Yang#
+              <br>
+              <em>ICML</em>, 2025
+              <br>
+              <!-- <a href="switchnerf">project page</a> / -->
+              <a href="https://arxiv.org/pdf/2412.01493">paper</a> /
+              <a href='https://xxxxxx2025.github.io/LALNet/'>demo</a> 
+              <br>
+            </td>
+          </tr>
+
+
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+            <tr onmouseout="switchnerf_stop()" onmouseover="switchnerf_start()">
+              <td style="padding:20px;width:25%;vertical-align:middle">
+                <!-- <div id='ssrnet_anim' class='hidden'>
+                  <a href=""><img src="images/ECCV2012_small.gif"></a>
+                </div> -->
+                <div id='switchnerf_still'><img src="imgs/taskdiff.jpg" width="200"></div>
+                <script type="text/javascript">
+                  function switchnerf_start() {
+                    document.getElementById('eccv12_anim').style.display = 'inline';
+                    document.getElementById('eccv12_still').style.display = 'none';
+                  }
   
-  <div>
-  
-  <!-- <div> -->
-  <div class="paper">
-    <img class="paper" src="./imgs/consisSR.jpg" title="ConsisSR: Delving Deep into Consistency in Diffusion-based Image Super-Resolution
-    ">
-    <div> <strong>ConsisSR: Delving Deep into Consistency in Diffusion-based Image Super-Resolution</strong><br>
-      Junhao Gu*, Peng-Tao Jiang*#, Hao Zhang, Mi Zhou, Jinwei Chen, Wenming Yang#, Bo Li<br>
-      arxiv, 2024 <br>
-      <a href='https://arxiv.org/pdf/2410.13807?'>[PDF]</a> 
-      <a href='https://arxiv.org/pdf/2410.13807?'>[CODE]</a> <br>
-    </div>
-    <div class="spanner"></div>
+                  function switchnerf_stop() {
+                    document.getElementById('eccv12_anim').style.display = 'none';
+                    document.getElementById('eccv12_still').style.display = 'inline';
+                  }
+                  switchnerf_stop()
+                </script>
+              </td>
+              <td width="75%" valign="middle">
+                 <!-- <a href="switchnerf"> -->
+                <a href="https://openreview.net/pdf?id=TzdTRC85SQ">
+                  <papertitle>Multi-Task Dense Predictions via Unleashing the Power of Diffusion</papertitle>
+                </a>
+                <br>
+                Yuqi Yang*, <strong><u>Peng-Tao Jiang*</u></strong>, Qibin Hou#, Hao Zhang, Jinwei Chen, Bo Li
+                <br>
+                <em>ICLR</em>, 2025
+                <br>
+                <!-- <a href="switchnerf">project page</a> / -->
+                <a href="https://openreview.net/pdf?id=TzdTRC85SQ">paper</a> /
+                <a href='https://github.com/YuqiYang213/TaskDiffusion'>code</a> 
+                <br>
+              </td>
+            </tr>
+            
+            <!--new paper -->
+            <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
-  <img class="paper" src="./imgs/dm.jpg" title="DepthMaster: Taming Diffusion Models for Monocular Depth Estimation
-    ">
-    <div> <strong>DepthMaster: Taming Diffusion Models for Monocular Depth Estimation</strong><br>
-      Ziyang Song, Zerong Wang, Bo Li, Hao Zhang, Ruijie Zhu, Li Liu, Peng-Tao Jiang#, Tianzhu Zhang#<br>
-      arxiv, 2024 <br>
-      <a href='https://arxiv.org/pdf/2501.02576'>[PDF]</a> 
-      <a href='https://indu1ge.github.io/DepthMaster_page/'>[CODE]</a> <br>
-    </div>
-    <div class="spanner"></div>
+                <tr onmouseout="switchnerf_stop()" onmouseover="switchnerf_start()">
+                  <td style="padding:20px;width:25%;vertical-align:middle">
+                    <!-- <div id='ssrnet_anim' class='hidden'>
+                      <a href=""><img src="images/ECCV2012_small.gif"></a>
+                    </div> -->
+                    <div id='switchnerf_still'><img src="imgs/diffdis.jpg" width="200"></div>
+                    <script type="text/javascript">
+                      function switchnerf_start() {
+                        document.getElementById('eccv12_anim').style.display = 'inline';
+                        document.getElementById('eccv12_still').style.display = 'none';
+                      }
+      
+                      function switchnerf_stop() {
+                        document.getElementById('eccv12_anim').style.display = 'none';
+                        document.getElementById('eccv12_still').style.display = 'inline';
+                      }
+                      switchnerf_stop()
+                    </script>
+                  </td>
+                  <td width="75%" valign="middle">
+                     <!-- <a href="switchnerf"> -->
+                    <a href="https://arxiv.org/pdf/2410.10105">
+                        <papertitle>High-Precision Dichotomous Image Segmentation via Probing Diffusion Capacity</papertitle>
+                    </a>
+                    <br>
+                    Qian Yu*, <strong><u>Peng-Tao Jiang*#</u></strong>, Hao Zhang, Jinwei Chen, Bo Li, Lihe Zhang#, Huchuan Lu
+                    <br>
+                    <em>ICLR</em>, 2025
+                    <br>
+                    <!-- <a href="switchnerf">project page</a> / -->
+                    <a href="https://arxiv.org/pdf/2410.10105">paper</a> /
+                    <a href='https://github.com/qianyu-dlut/DiffDIS'>code</a> 
+                    <br>
+                  </td>
+                </tr>
 
-  <!-- <div class="paper" id="semat"> -->
-    <img class="paper" src="./imgs/semat.jpg" title="Towards Natural Image Matting in the Wild via Real-Scenario Prior">
-    <div> <strong>Towards Natural Image Matting in the Wild via Real-Scenario Prior</strong><br>
-      Ruihao Xia, Yu Liang, Peng-Tao Jiang#, Hao Zhang, Qianru Sun, Yang Tang#, Bo Li, Pan Zhou<br>
-      arxiv, 2024 <br>
-      <a href='https://arxiv.org/abs/2410.06593'>[PDF]</a> 
-      <a href='https://github.com/XiaRho/SEMat'>[CODE]</a> <br>
-    </div>
-    <div class="spanner"></div>
-    <div class="spanner"></div>
-  <!-- </div> -->
-  <!-- <div class="paper" id="lsg"> -->
-    <img class="paper" src="./imgs/lsg.png" title="Segment Anything is A Good Pseudo-label Generator
-    for Weakly Supervised Semantic Segmentation">
-      <div> <strong>Segment Anything is A Good Pseudo-label Generator for Weakly Supervised Semantic Segmentation</strong><br>
-      <strong><u>Peng-Tao Jiang*</u></strong>, Yuqi Yang*<br>
-      arXiv, 2023 <br>
-      <a href='https://arxiv.org/pdf/2305.01275.pdf'>[PDF]</a> 
-      <a href=''>[CODE]</a> <br>
-    </div>
-    <div class="spanner"></div>
-  </div>
-  </div>
+            <!--new paper -->
+            <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
-  <!-- <div class="paper" id="lsg"><img class="paper" src="./imgs/lsg.png" title="Segment Anything is A Good Pseudo-label Generator
-    for Weakly Supervised Semantic Segmentation">
-      <div> <strong>Segment Anything is A Good Pseudo-label Generator for Weakly Supervised Semantic Segmentation</strong><br>
-      <strong><u>Peng-Tao Jiang*</u></strong>, Yuqi Yang*<br>
-      arXiv, 2023 <br>
-      <a href='https://arxiv.org/pdf/2305.01275.pdf'>[PDF]</a> 
-      <a href=''>[CODE]</a> <br>
-    </div>
-    <div class="spanner"></div>
-  </div> -->
+                <tr onmouseout="switchnerf_stop()" onmouseover="switchnerf_start()">
+                  <td style="padding:20px;width:25%;vertical-align:middle">
+                    <!-- <div id='ssrnet_anim' class='hidden'>
+                      <a href=""><img src="images/ECCV2012_small.gif"></a>
+                    </div> -->
+                    <div id='switchnerf_still'><img src="imgs/calm.jpg" width="200"></div>
+                  </td>
+                  <td width="75%" valign="middle">
+                     <!-- <a href="switchnerf"> -->
+                    <a href="https://arxiv.org/abs/2412.11952">
+                        <papertitle>Advancing Comprehensive Aesthetic Insight with Multi-Scale Text-Guided Self-Supervised Learning</papertitle>
+                    </a>
+                    <br>
+                    Yuti Liu, Shice Liu, Junyuan Gao, <strong>Peng-Tao Jiang</strong>, Hao Zhang, Jinwei Chen, Bo Li#
+                    <br>
+                    <em>AAAI</em>, 2025
+                    <br>
+                    <a href="https://arxiv.org/abs/2412.11952">paper</a> 
+                    <!-- /<a href=''>code</a>  -->
+                    <br>
+                  </td>
+                </tr>
 
+            <!--new paper -->
+            <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
-<div style="clear: both;">
-<div class="section">
-<h2> Selected Publications </h2>
-* denotes equal contribution.
-# denotes the correspond authors.
-<div>
-
-<div class="paper" id="taskdiff">
-
-  <img class="paper" src="./imgs/lal.jpg" title="Learning Adaptive Lighting via Channel-Aware Guidance">
-  <div> <strong>Learning Adaptive Lighting via Channel-Aware Guidance</strong><br>
-    Qirui Yang*, <strong><u>Peng-Tao Jiang*#</u></strong>, Hao Zhang, Jinwei Chen, Bo Li, Huanjing Yue, Jingyu Yang#<br>
-    International Conference on Machine Learning(<strong>ICML</strong>), 2025 <br>
-    <a href='https://arxiv.org/pdf/2412.01493'>[PDF]</a> 
-    <a href='https://xxxxxx2025.github.io/LALNet/'>[CODE]</a> <br>
-  </div>
-  <div class="spanner"></div>
-
-  <img class="paper" src="./imgs/taskdiff.jpg" title="Multi-Task Dense Predictions via Unleashing the Power of Diffusion">
-  <div> <strong>Multi-Task Dense Predictions via Unleashing the Power of Diffusion</strong><br>
-    Yuqi Yang*, <strong><u>Peng-Tao Jiang*</u></strong>, Qibin Hou#, Hao Zhang, Jinwei Chen, Bo Li<br>
-    International Conference on Learning Representations(<strong>ICLR</strong>), 2025 <br>
-    <a href='https://openreview.net/pdf?id=TzdTRC85SQ'>[PDF]</a> 
-    <a href='https://github.com/YuqiYang213/TaskDiffusion'>[CODE]</a> <br>
-  </div>
-  <div class="spanner"></div>
-
-  <!-- <img class="paper" src="./imgs/diffdis.jpg" title="High-Precision Dichotomous Image Segmentation via Probing Diffusion Capacity
-  ">
-  <div> <strong>High-Precision Dichotomous Image Segmentation via Probing Diffusion Capacity</strong><br>
-    Qian Yu*, <strong><u>Peng-Tao Jiang*#</u></strong>, Hao Zhang, Jinwei Chen, Bo Li, Lihe Zhang#, Huchuan Lu<br>
-    International Conference on Learning Representations(<strong>ICLR</strong>), 2025 <br>
-    <a href='https://arxiv.org/pdf/2410.10105'>[PDF]</a> 
-    <a href='https://github.com/qianyu-dlut/DiffDIS'>[CODE]</a> <br>
-  </div>
-  <div class="spanner"></div> -->
-
-<!-- <div class="paper" id="mmcpf"> -->
-  <!-- <img class="paper" src="./imgs/mmcpf.jpg" title="Chain of Visual Perception: Harnessing Multimodal Large Language Models for Zero-shot Camouflaged Object Detection">
-  <div> <strong>Chain of Visual Perception: Harnessing Multimodal Large Language Models for Zero-shot Camouflaged Object Detection</strong><br>
-    Lv Tang, <strong><u>Peng-Tao Jiang</u></strong>, Zhihao Shen, Hao Zhang, Jinwei Chen, Bo Li<br>
-    ACM International Conference on Multimedia(<strong>MM</strong>), 2024 <br>
-    <a href='https://arxiv.org/pdf/2311.11273'>[PDF]</a> 
-    <a href='https://github.com/luckybird1994/MMCPF'>[CODE]</a> <br>
-  </div>
-  <div class="spanner"></div> -->
-<!-- </div> -->
-
-<!-- <div class="paper" id="ddpmbs"> -->
-  <!-- <img class="paper" src="./imgs/ddpmbs.jpg" title="Non-uniform Timestep Sampling: Towards Faster Diffusion Model Training">
-  <div> <strong>Non-uniform Timestep Sampling: Towards Faster Diffusion Model Training</strong><br>
-    Tianyi Zheng, Cong Geng, <strong><u>Peng-Tao Jiang</u></strong>, Ben Wan, Hao Zhang, Jinwei Chen, Jia Wang#, Bo Li#<br>
-    ACM International Conference on Multimedia(<strong>MM</strong>), 2024 <br>
-    <a href='https://openreview.net/pdf?id=NQPJYEyiiM'>[PDF]</a> 
-    <a href=''>[CODE]</a> <br>
-  </div>
-  <div class="spanner"></div> -->
+                <tr onmouseout="switchnerf_stop()" onmouseover="switchnerf_start()">
+                  <td style="padding:20px;width:25%;vertical-align:middle">
+                    <!-- <div id='ssrnet_anim' class='hidden'>
+                      <a href=""><img src="images/ECCV2012_small.gif"></a>
+                    </div> -->
+                    <div id='switchnerf_still'><img src="imgs/ffp.jpg" width="200"></div>
+                  </td>
+                  <td width="75%" valign="middle">
+                     <!-- <a href="switchnerf"> -->
+                    <a href="https://ojs.aaai.org/index.php/AAAI/article/view/32934">
+                        <papertitle>Boosting Vision State Space Model with Fractal Scanning</papertitle>
+                    </a>
+                    <br>
+                    Haoke Xiao*, Lv Tang*, <strong>Peng-Tao Jiang</strong>, Hao Zhang, Jinwei Chen, Bo Li#
+                    <br>
+                    <em>AAAI</em>, 2025, <strong><font color="#FF0000">ORAL</strong>
+                    <br>
+                    <a href="https://ojs.aaai.org/index.php/AAAI/article/view/32934">paper</a> 
+                    <!-- /<a href=''>code</a>  -->
+                    <br>
+                  </td>
+                </tr>
 
 
-<!-- <div class="paper" id="bttdm"> -->
-  <img class="paper" src="./imgs/bttdm.jpg" title="Beta-Tuned Timestep Diffusion Model">
-  <div> <strong>Beta-Tuned Timestep Diffusion Model</strong><br>
-    Tianyi Zheng, <strong><u>Peng-Tao Jiang</u></strong>, Ben Wan, Hao Zhang, Jinwei Chen, Jia Wang#, Bo Li#<br>
-    European Conference on Computer Vision(<strong>ECCV</strong>), 2024 <br>
-    <a href='https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/00328.pdf'>[PDF]</a> 
-    <a href=''>[CODE]</a> <br>
-  </div>
-  <div class="spanner"></div>
-<!-- </div> -->
+            <!--new paper -->
+            <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
-<!-- <div class="paper" id="ipseg"> -->
-  <img class="paper" src="./imgs/ipseg.jpg" title="Towards Training-free Open-world Segmentation via Image Prompt Foundation Models">
-  <div> <strong>Towards Training-free Open-world Segmentation via Image Prompt Foundation Models</strong><br>
-    Lv Tang*, <strong><u>Peng-Tao Jiang*</u></strong>, Haoke Xiao*, Bo Li#<br>
-    International Journal of Computer Vision(<strong>IJCV</strong>), 2024 <br>
-    <a href='https://arxiv.org/pdf/2310.10912'>[PDF]</a> 
-    <a href=''>[CODE]</a> <br>
-  </div>
-  <div class="spanner"></div>
-<!-- </div> -->
+                <tr onmouseout="switchnerf_stop()" onmouseover="switchnerf_start()">
+                  <td style="padding:20px;width:25%;vertical-align:middle">
+                    <!-- <div id='ssrnet_anim' class='hidden'>
+                      <a href=""><img src="images/ECCV2012_small.gif"></a>
+                    </div> -->
+                    <div id='switchnerf_still'><img src="imgs/madm.jpg" width="200"></div>
+                  </td>
+                  <td width="75%" valign="middle">
+                     <!-- <a href="switchnerf"> -->
+                    <a href="https://proceedings.neurips.cc/paper_files/paper/2024/file/aa9796d525f6614898297847d8efea17-Paper-Conference.pdf">
+                        <papertitle>Unsupervised Modality Adaptation with Text-to-Image Diffusion Models for Semantic Segmentation</papertitle>
+                    </a>
+                    <br>
+                    Ruihao Xia, Yu Liang, <strong>Peng-Tao Jiang</strong>, Hao Zhang, Bo Li#, Yang Tang#, Pan Zhou
+                    <br>
+                    <em>NeurIPS</em>, 2024
+                    <br>
+                    <!-- <a href="switchnerf">project page</a> / -->
+                    <a href="https://proceedings.neurips.cc/paper_files/paper/2024/file/aa9796d525f6614898297847d8efea17-Paper-Conference.pdf">paper</a> /
+                    <a href='https://github.com/XiaRho/MADM'>code</a> 
+                    <br>
+                  </td>
+                </tr>
+                
+            <!--new paper -->
+            <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
-<!-- <div class="paper" id="ddaebm"> -->
-  <img class="paper" src="./imgs/ddaebm.jpg" title="Improving Adversarial Energy-Based Model via Diffusion Process">
-  <div> <strong>Improving Adversarial Energy-Based Model via Diffusion Process</strong><br>
-    Cong Geng, Tian Han, <strong><u>Peng-Tao Jiang</u></strong>, Hao Zhang, Jinwei Chen, Søren Hauberg, Bo Li<br>
-    International Conference on Machine Learning(<strong>ICML</strong>), 2024 <br>
-    <a href='https://arxiv.org/pdf/2403.01666'>[PDF]</a> 
-    <a href=''>[CODE]</a> <br>
-  </div>
-  <div class="spanner"></div>
-<!-- </div> -->
+                <tr onmouseout="switchnerf_stop()" onmouseover="switchnerf_start()">
+                  <td style="padding:20px;width:25%;vertical-align:middle">
+                    <!-- <div id='ssrnet_anim' class='hidden'>
+                      <a href=""><img src="images/ECCV2012_small.gif"></a>
+                    </div> -->
+                    <div id='switchnerf_still'><img src="imgs/mmcpf.jpg" width="200"></div>
+                  </td>
+                  <td width="75%" valign="middle">
+                     <!-- <a href="switchnerf"> -->
+                    <a href="https://arxiv.org/pdf/2311.11273">
+                        <papertitle>Chain of Visual Perception: Harnessing Multimodal Large Language Models for Zero-shot Camouflaged Object Detection</papertitle>
+                    </a>
+                    <br>
+                    Lv Tang, <strong><u>Peng-Tao Jiang</u></strong>, Zhihao Shen, Hao Zhang, Jinwei Chen, Bo Li
+                    <br>
+                    <em>ACM MM</em>, 2024
+                    <br>
+                    <!-- <a href="switchnerf">project page</a> / -->
+                    <a href="https://arxiv.org/pdf/2311.11273">paper</a> /
+                    <a href='https://github.com/luckybird1994/MMCPF'>code</a> 
+                    <br>
+                  </td>
+                </tr>
 
-<!-- <div class="paper" id="rrw"> -->
-  <img class="paper" src="./imgs/rrw.jpg" title="Revisiting Single Image Reflection Removal In the Wild">
-  <div> <strong>Revisiting Single Image Reflection Removal In the Wild</strong><br>
-    Yurui Zhu, Xueyang Fu, <strong><u>Peng-Tao Jiang</u></strong>, Hao Zhang, Qibin Sun,  Jinwei Chen,  Zheng-Jun Zh, Bo Li<br>
-    IEEE Conference on Computer Vision and Pattern Recognition(<strong>CVPR</strong>), 2024 <br>
-    <a href='https://arxiv.org/pdf/2311.17320.pdf'>[PDF]</a> 
-    <a href=''>[CODE]</a> <br>
-  </div>
-  <div class="spanner"></div>
-<!-- </div> -->
+            <!--new paper -->
+            <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
-<!-- <div class="paper" id="mlore"> -->
-  <img class="paper" src="./imgs/mlore.jpg" title="Multi-Task Dense Prediction via Mixture of Low-Rank Experts">
-  <div> <strong>Multi-Task Dense Prediction via Mixture of Low-Rank Experts</strong><br>
-    Yuqi Yang*, <strong><u>Peng-Tao Jiang*</u></strong>, Qibin Hou, Hao Zhang, Jinwei Chen, Bo Li<br>
-    IEEE Conference on Computer Vision and Pattern Recognition(<strong>CVPR</strong>), 2024 <br>
-    <a href='https://arxiv.org/pdf/2403.17749v1.pdf'>[PDF]</a> 
-    <a href='https://github.com/YuqiYang213/MLoRE'>[CODE]</a> <br>
-  </div>
-  <div class="spanner"></div>
-<!-- </div> -->
-
-<!-- <div class="paper" id="tsp6k"> -->
-  <img class="paper" src="./imgs/tsp6k.png" title="Traffic Scene Parsing through the TSP6K Dataset">
-  <div> <strong>Traffic Scene Parsing through the TSP6K Dataset</strong><br>
-    <strong><u>Peng-Tao Jiang*</u></strong>, Yuqi Yang*, Yang Cao, Qibin Hou, Ming-Ming Cheng, Chunhua Shen<br>
-    IEEE Conference on Computer Vision and Pattern Recognition(<strong>CVPR</strong>), 2024 <br>
-    <a href='https://arxiv.org/pdf/2303.02835.pdf'>[PDF]</a> 
-    <a href='https://github.com/PengtaoJiang/TSP6K/'>[CODE]</a> 
-    <a href='https://www.jianguoyun.com/p/DZVO0kMQ2tnWChjun6MFIAA'>[DATASET(password:Wi9qFT)]</a><br>
-  </div>
-  <div class="spanner"></div>
-<!-- </div> -->
-
-
-<!-- <div class="paper" id="hsr"> -->
-  <!-- <img class="paper" src="./imgs/hsr.png" title="Looking Through the Glass: Neural Surface Reconstruction Against High Specular Reflections">
-  <div> <strong>Looking Through the Glass: Neural Surface Reconstruction Against High Specular Reflections</strong><br>
-    Jiaxiong Qiu, <strong><u>Peng-Tao Jiang</u></strong>, Yifan Zhu, Ze-Xin Yin, Ming-Ming Cheng, Bo Ren<br>
-    IEEE Conference on Computer Vision and Pattern Recognition(<strong>CVPR</strong>), 2023 <br>
-    <a href='http://ren-bo.net/papers/qjx_cvpr2023.pdf'>[PDF]</a> 
-    <a href='https://github.com/JiaxiongQ/NeuS-HSR'>[CODE]</a> <br>
-  </div>
-  <div class="spanner"></div>
-</div>
-
-<div class="paper" id="rd">
-   <img class="paper" src="./imgs/rd.png" title="RDNeRF: Relative Depth Guided NeRF for Dense Free View Synthesis">
-  <div> <strong>RDNeRF: Relative Depth Guided NeRF for Dense Free View Synthesis</strong><br>
-    Jiaxiong Qiu*, Yifan Zhu*, <strong><u>Peng-Tao Jiang</u></strong>, Ming-Ming Cheng, Bo Ren<br>
-    The Visual Computer Journal(<strong>TVC</strong>), 2023 <br>
-    <a href='https://trebuchet.public.springernature.app/get_content/6eca4bb0-2124-40dd-858c-8a5aabe5dd14'>[PDF]</a> 
-    <a href='https://github.com/JiaxiongQ/RDNeRF'>[CODE]</a> <br>
-  </div>
-  <div class="spanner"></div> --> 
-<!-- </div> -->
+                <tr onmouseout="switchnerf_stop()" onmouseover="switchnerf_start()">
+                  <td style="padding:20px;width:25%;vertical-align:middle">
+                    <!-- <div id='ssrnet_anim' class='hidden'>
+                      <a href=""><img src="images/ECCV2012_small.gif"></a>
+                    </div> -->
+                    <div id='switchnerf_still'><img src="imgs/ddpmbs.jpg" width="200"></div>
+                  </td>
+                  <td width="75%" valign="middle">
+                     <!-- <a href="switchnerf"> -->
+                    <a href="https://openreview.net/pdf?id=NQPJYEyiiM">
+                        <papertitle>Non-uniform Timestep Sampling: Towards Faster Diffusion Model Training</papertitle>
+                    </a>
+                    <br>
+                    Tianyi Zheng, Cong Geng, <strong><u>Peng-Tao Jiang</u></strong>, Ben Wan, Hao Zhang, Jinwei Chen, Jia Wang#, Bo Li#
+                    <br>
+                    <em>ACM MM</em>, 2024
+                    <br>
+                    <!-- <a href="switchnerf">project page</a> / -->
+                    <a href="https://openreview.net/pdf?id=NQPJYEyiiM">paper</a> 
+                    <!-- /<a href=''>code</a>  -->
+                    <br>
+                  </td>
+                </tr>
 
 
-<!-- <div class="paper" id="hd"> -->
-<!-- <img class="paper" src="./imgs/hd.png" title="Deeply Explain CNN via Hierarchical Decomposition">
-  <div> <strong>Deeply Explain CNN via Hierarchical Decomposition</strong><br>
-    Ming-Ming Cheng*, <strong><u>Peng-Tao Jiang*</u></strong>, Ling-Hao Han, Liang Wang, Philip Torr<br>
-    International Journal of Computer Vision(<strong>IJCV</strong>), 2023 <br>
-    <a href='https://mftp.mmcheng.net/Papers/23IJCV_CNNasDT.pdf'>[PDF]</a> 
-    <a href='http://mc.nankai.edu.cn/hd/'>[Online Demo]</a> <br>
-  </div>
-  <div class="spanner"></div> -->
-<!-- </div> -->
+            <!--new paper -->
+            <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
-<!-- <div class="paper" id="l2g"> -->
-<!-- <img class="paper" src="./imgs/l2g.png" title="L2G: A Simple Local-to-Global Knowledge Transfer 
-  Framework for Weakly Supervised Semantic Segmentation">
-  <div> <strong>L2G: A Simple Local-to-Global Knowledge Transfer Framework for Weakly Supervised Semantic Segmentation</strong><br>
-  <strong><u>Peng-Tao Jiang</u></strong>, Yuqi Yang, Qibin Hou, Yunchao Wei<br>
-  IEEE Conference on Computer Vision and Pattern Recognition(<strong>CVPR</strong>), 2022 <br>
-  <a href=''>[PDF]</a>
-  <a href='https://github.com/PengtaoJiang/L2G'>[CODE]</a> <br>
-  </div>
-  <div class="spanner"></div> -->
-<!-- </div> -->
-
-<!-- <div class="paper" id="am"> -->
-<!-- <img class="paper" src="./imgs/am.jpg" title="Attention mechanisms in computer vision: A survey">
-  <div> <strong>Attention mechanisms in computer vision: A survey</strong><br>
-  Meng-Hao Guo, Tian-Xing Xu, Jiang-Jiang Liu, Zheng-Ning Liu, <strong><u>Peng-Tao Jiang</u></strong>, Tai-Jiang Mu, Song-Hai Zhang, Ralph R. Martin, Ming-Ming Cheng, and Shi-Min Hu<br>
-  Computational Visual Media Journal(<strong>CVMJ</strong>, <a href='https://www.springer.com/journal/41095/updates/25223320'><strong>Best Paper Award</strong></a>), 2022,  <br>
-  <a href='https://arxiv.org/abs/2111.07624'>[PDF]</a>
-  <a href='https://github.com/MenghaoGuo/Awesome-Vision-Attentions'>[CODE]</a> <br>
-  </div>
-  <div class="spanner"></div> -->
-<!-- </div> -->
-  
-
-<!-- <div class="paper" id="piss"> -->
-<!-- <img class="paper" src="./imgs/piss.png" title="Personalized Image Semantic Segmentation">
-  <div> <strong>Personalized Image Semantic Segmentation</strong><br>
-  Yu Zhang, Chang-bin Zhang, <strong><u>Peng-Tao Jiang</u></strong>, Feng Mao, Ming-Ming Cheng<br>
-  IEEE/CVF International Conference on Computer Vision (<strong>ICCV</strong>), 2021 <br>
-  <a href='https://arxiv.org/pdf/2107.13978'>[PDF]</a>
-  <a href='https://github.com/zhangyuygss/PIS'>[CODE]</a> <br>
-  </div>
-  <div class="spanner"></div> -->
-<!-- </div> -->
-
-<!-- <div class="paper" id="oaa++"> -->
-<!-- <img class="paper" src="./imgs/oaa++.png" title="Online Attention Accumulation for Weakly Supervised Semantic Segmentation">
-  <div> <strong>Online Attention Accumulation for Weakly Supervised Semantic Segmentation</strong><br>
-  <strong><u>Peng-Tao Jiang*</u></strong>, Ling-Hao Han*, Qibin Hou, Ming-Ming Cheng, Yunchao Wei<br>
-  IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2021<br>
-  <a href='https://mftp.mmcheng.net/Papers/21PAMI-OAA_PAMI.pdf'>[PDF]</a> <br>
-  </div>
-  <div class="spanner"></div> -->
-  <!-- </div> -->
-
-<!-- <div class="paper" id="OLS"> -->
-<!-- <img class="paper" src="./imgs/ols.png" title="Delving Deep into Label Smoothing">
-<div> <strong>Delving Deep into Label Smoothing</strong><br>
-Chang-bin Zhang*, <strong><u>Peng-Tao Jiang*</u></strong>, Qibin Hou, Yunchao Wei, Qi Han, Zhen Li, Ming-Ming Cheng <br> 
-IEEE Transactions on Image Processing (TIP), 2021<br>
-<a href='https://arxiv.org/abs/2011.12562'>[PDF]</a>, 
-<a href='https://github.com/zhangchbin/OnlineLabelSmoothing'>[CODE]</a> <br>
-</div>
-<div class="spanner"></div> -->
-<!-- </div> -->
-
-<!-- <div class="paper" id="layerCAM"> -->
-<!-- <img class="paper" src="./imgs/layerCAM.png" title="LayerCAM: Exploring Hierarchical Class Activation Maps for Localization">
-<div> <strong>LayerCAM: Exploring Hierarchical Class Activation Maps for Localization</strong><br>
-<strong><u>Peng-Tao Jiang*</u></strong>, Chang-bin Zhang*, Qibin Hou, Ming-Ming Cheng, Yunchao Wei<br>
-IEEE Transactions on Image Processing (TIP 2021)<br>
-<a href='http://mftp.mmcheng.net/Papers/21TIP_LayerCAM.pdf'>[PDF]</a>,
-<a href='https://github.com/PengtaoJiang/LayerCAM'>[CODE]</a><br>
-<br>
-<strong><u>Applied to SK Defect Detection Project</u></strong>
-</div>
-<div class="spanner"></div> -->
-<!-- </div> -->
-  
-  
-<!-- <div class="paper" id="oaa"> -->
-<!-- <img class="paper" src="./imgs/oaa.png" title="Integral Object Mining via Online Attention Accumulation">
-<div> <strong>Integral Object Mining via Online Attention Accumulation</strong><br>
-<strong><u>Peng-Tao Jiang</u></strong>, Qibin Hou, Yang Cao, Ming-Ming Cheng, Yunchao Wei, Hongkai Xiong<br>
-IEEE/CVF International Conference on Computer Vision (<strong>ICCV</strong>), 2019 <br>
-<a href='https://openaccess.thecvf.com/content_ICCV_2019/papers/Jiang_Integral_Object_Mining_via_Online_Attention_Accumulation_ICCV_2019_paper.pdf'>[PDF]</a>,
-<a href='https://github.com/PengtaoJiang/OAA'>[Code]</a>,
-<a href='https://mmcheng.net/oaa/'>[Project]</a> 
-</div>
-<div class="spanner"></div> -->
-<!-- </div> -->
-  
-
-<!-- <div class="paper" id="SeeNet"> -->
-<!-- <img class="paper" src="./imgs/seenet.png" title="Self-Erasing Network for Integral Object Attention">
-<div> <strong>Self-Erasing Network for Integral Object Attention</strong><br>
-Qibin Hou, <strong><u>Peng-Tao Jiang</u></strong>, Yunchao Wei, Ming-Ming Cheng <br>
-Neural Information Processing Systems (<strong>NeurIPS</strong>), 2018 <br>
-<a href='https://papers.nips.cc/paper/2018/file/c042f4db68f23406c6cecf84a7ebb0fe-Paper.pdf'>[PDF]</a>,
-<a href='https://github.com/Andrew-Qibin/SeeNet'>[Code]</a>,
-<a href='https://mmcheng.net/seenet/'>[Project]</a> 
-</div>
-<div class="spanner"></div> -->
-<!-- </div> -->
+                <tr onmouseout="switchnerf_stop()" onmouseover="switchnerf_start()">
+                  <td style="padding:20px;width:25%;vertical-align:middle">
+                    <!-- <div id='ssrnet_anim' class='hidden'>
+                      <a href=""><img src="images/ECCV2012_small.gif"></a>
+                    </div> -->
+                    <div id='switchnerf_still'><img src="imgs/bttdm.jpg" width="200"></div>
+                    <script type="text/javascript">
+                      function switchnerf_start() {
+                        document.getElementById('eccv12_anim').style.display = 'inline';
+                        document.getElementById('eccv12_still').style.display = 'none';
+                      }
+      
+                      function switchnerf_stop() {
+                        document.getElementById('eccv12_anim').style.display = 'none';
+                        document.getElementById('eccv12_still').style.display = 'inline';
+                      }
+                      switchnerf_stop()
+                    </script>
+                  </td>
+                  <td width="75%" valign="middle">
+                     <!-- <a href="switchnerf"> -->
+                    <a href="https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/00328.pdf">
+                        <papertitle>Beta-Tuned Timestep Diffusion Model</papertitle>
+                    </a>
+                    <br>
+                    Tianyi Zheng, <strong><u>Peng-Tao Jiang</u></strong>, Ben Wan, Hao Zhang, Jinwei Chen, Jia Wang#, Bo Li#
+                    <br>
+                    <em>ACM MM</em>, 2024
+                    <br>
+                    <!-- <a href="switchnerf">project page</a> / -->
+                    <a href="https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/00328.pdf">paper</a> 
+                    <!-- /<a href=''>code</a>  -->
+                    <br>
+                  </td>
+                </tr>
 
 
-<!-- <div class="paper" id="del"> -->
-<!-- <img class="paper" src="./imgs/del.png" title="DEL: Deep Embedding Learning for Efficient Image Segmentation">
-<div> <strong>DEL: Deep Embedding Learning for Efficient Image Segmentation</strong><br>
-Yun Liu, <strong><u>Peng-Tao Jiang</u></strong>, Vahan Petrosyan, Shi-Jie Li, Jiawang Bian, 
-Le Zhang, and Ming-Ming Cheng <br>
-International Joint Conferences on Artificial Intelligence (<strong>IJCAI</strong>), 2018 <br> 
-<a href='https://www.ijcai.org/Proceedings/2018/0120.pdf'>[PDF]</a>,
-<a href='https://github.com/yun-liu/del/'>[Code]</a>
-<a href='https://mmcheng.net/del/'>[Project]</a>
-</div>
-<div class="spanner"></div> -->
-</div>
+            <!--new paper -->
+            <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+                <tr onmouseout="switchnerf_stop()" onmouseover="switchnerf_start()">
+                  <td style="padding:20px;width:25%;vertical-align:middle">
+                    <!-- <div id='ssrnet_anim' class='hidden'>
+                      <a href=""><img src="images/ECCV2012_small.gif"></a>
+                    </div> -->
+                    <div id='switchnerf_still'><img src="imgs/ipseg.jpg" width="200"></div>
+                    <script type="text/javascript">
+                      function switchnerf_start() {
+                        document.getElementById('eccv12_anim').style.display = 'inline';
+                        document.getElementById('eccv12_still').style.display = 'none';
+                      }
+      
+                      function switchnerf_stop() {
+                        document.getElementById('eccv12_anim').style.display = 'none';
+                        document.getElementById('eccv12_still').style.display = 'inline';
+                      }
+                      switchnerf_stop()
+                    </script>
+                  </td>
+                  <td width="75%" valign="middle">
+                     <!-- <a href="switchnerf"> -->
+                    <a href="https://arxiv.org/pdf/2310.10912">
+                        <papertitle>Towards Training-free Open-world Segmentation via Image Prompt Foundation Models</papertitle>
+                    </a>
+                    <br>
+                    Lv Tang*, <strong><u>Peng-Tao Jiang*</u></strong>, Haoke Xiao*, Bo Li#
+                    <br>
+                    <em>IJCV</em>, 2024
+                    <br>
+                    <!-- <a href="switchnerf">project page</a> / -->
+                    <a href="https://arxiv.org/pdf/2310.10912">paper</a> 
+                    <!-- /<a href=''>code</a>  -->
+                    <br>
+                  </td>
+                </tr>
+
+            <!--new paper -->
+            <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+                <tr onmouseout="switchnerf_stop()" onmouseover="switchnerf_start()">
+                  <td style="padding:20px;width:25%;vertical-align:middle">
+                    <!-- <div id='ssrnet_anim' class='hidden'>
+                      <a href=""><img src="images/ECCV2012_small.gif"></a>
+                    </div> -->
+                    <div id='switchnerf_still'><img src="imgs/ddaebm.jpg" width="200"></div>
+                    <script type="text/javascript">
+                      function switchnerf_start() {
+                        document.getElementById('eccv12_anim').style.display = 'inline';
+                        document.getElementById('eccv12_still').style.display = 'none';
+                      }
+      
+                      function switchnerf_stop() {
+                        document.getElementById('eccv12_anim').style.display = 'none';
+                        document.getElementById('eccv12_still').style.display = 'inline';
+                      }
+                      switchnerf_stop()
+                    </script>
+                  </td>
+                  <td width="75%" valign="middle">
+                     <!-- <a href="switchnerf"> -->
+                    <a href="https://arxiv.org/pdf/2403.01666">
+                        <papertitle>Improving Adversarial Energy-Based Model via Diffusion Process</papertitle>
+                    </a>
+                    <br>
+                    Cong Geng, Tian Han, <strong><u>Peng-Tao Jiang</u></strong>, Hao Zhang, Jinwei Chen, Søren Hauberg, Bo Li
+                    <br>
+                    <em>ICML</em>, 2024
+                    <br>
+                    <!-- <a href="switchnerf">project page</a> / -->
+                    <a href="https://arxiv.org/pdf/2403.01666">paper</a> 
+                    <!-- /<a href=''>code</a>  -->
+                    <br>
+                  </td>
+                </tr>
+
+            <!--new paper -->
+            <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+                <tr onmouseout="switchnerf_stop()" onmouseover="switchnerf_start()">
+                  <td style="padding:20px;width:25%;vertical-align:middle">
+                    <!-- <div id='ssrnet_anim' class='hidden'>
+                      <a href=""><img src="images/ECCV2012_small.gif"></a>
+                    </div> -->
+                    <div id='switchnerf_still'><img src="imgs/rrw.jpg" width="200"></div>
+                    <script type="text/javascript">
+                      function switchnerf_start() {
+                        document.getElementById('eccv12_anim').style.display = 'inline';
+                        document.getElementById('eccv12_still').style.display = 'none';
+                      }
+      
+                      function switchnerf_stop() {
+                        document.getElementById('eccv12_anim').style.display = 'none';
+                        document.getElementById('eccv12_still').style.display = 'inline';
+                      }
+                      switchnerf_stop()
+                    </script>
+                  </td>
+                  <td width="75%" valign="middle">
+                     <!-- <a href="switchnerf"> -->
+                    <a href="https://arxiv.org/pdf/2311.17320.pdf">
+                        <papertitle>Revisiting Single Image Reflection Removal In the Wild</papertitle>
+                    </a>
+                    <br>
+                    Yurui Zhu, Xueyang Fu, <strong><u>Peng-Tao Jiang</u></strong>, Hao Zhang, Qibin Sun,  Jinwei Chen,  Zheng-Jun Zha, Bo Li
+                    <br>
+                    <em>CVPR</em>, 2024
+                    <br>
+                    <!-- <a href="switchnerf">project page</a> / -->
+                    <a href="https://arxiv.org/pdf/2311.17320.pdf">paper</a> 
+                    /<a href='https://github.com/zhuyr97/Reflection_RemoVal_CVPR2024'>code</a> 
+                    <br>
+                  </td>
+                </tr>
+
+        
+            <!--new paper -->
+            <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+                <tr onmouseout="switchnerf_stop()" onmouseover="switchnerf_start()">
+                  <td style="padding:20px;width:25%;vertical-align:middle">
+                    <!-- <div id='ssrnet_anim' class='hidden'>
+                      <a href=""><img src="images/ECCV2012_small.gif"></a>
+                    </div> -->
+                    <div id='switchnerf_still'><img src="imgs/mlore.jpg" width="200"></div>
+                    <script type="text/javascript">
+                      function switchnerf_start() {
+                        document.getElementById('eccv12_anim').style.display = 'inline';
+                        document.getElementById('eccv12_still').style.display = 'none';
+                      }
+      
+                      function switchnerf_stop() {
+                        document.getElementById('eccv12_anim').style.display = 'none';
+                        document.getElementById('eccv12_still').style.display = 'inline';
+                      }
+                      switchnerf_stop()
+                    </script>
+                  </td>
+                  <td width="75%" valign="middle">
+                     <!-- <a href="switchnerf"> -->
+                    <a href="https://arxiv.org/pdf/2403.17749">
+                        <papertitle>Multi-Task Dense Prediction via Mixture of Low-Rank Experts</papertitle>
+                    </a>
+                    <br>
+                    Yuqi Yang*, <strong><u>Peng-Tao Jiang*</u></strong>, Qibin Hou, Hao Zhang, Jinwei Chen, Bo Li
+                    <br>
+                    <em>CVPR</em>, 2024
+                    <br>
+                    <!-- <a href="switchnerf">project page</a> / -->
+                    <a href="https://arxiv.org/pdf/2403.17749">paper</a> 
+                    /<a href='https://github.com/zhuyr97/Reflection_RemoVal_CVPR2024'>code</a> 
+                    <br>
+                  </td>
+                </tr>
+
+            <!--new paper -->
+            <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+                <tr onmouseout="switchnerf_stop()" onmouseover="switchnerf_start()">
+                  <td style="padding:20px;width:25%;vertical-align:middle">
+                    <!-- <div id='ssrnet_anim' class='hidden'>
+                      <a href=""><img src="images/ECCV2012_small.gif"></a>
+                    </div> -->
+                    <div id='switchnerf_still'><img src="imgs/tsp6k.png" width="200"></div>
+                  </td>
+                  <td width="75%" valign="middle">
+                     <!-- <a href="switchnerf"> -->
+                    <a href="https://arxiv.org/pdf/2303.02835.pdf">
+                        <papertitle>Traffic Scene Parsing through the TSP6K Dataset</papertitle>
+                    </a>
+                    <br>
+                    <strong><u>Peng-Tao Jiang*</u></strong>, Yuqi Yang*, Yang Cao, Qibin Hou, Ming-Ming Cheng, Chunhua Shen
+                    <br>
+                    <em>CVPR</em>, 2024
+                    <br>
+                    <!-- <a href="switchnerf">project page</a> / -->
+                    <a href="https://arxiv.org/pdf/2303.02835.pdf">paper</a> 
+                    /<a href='https://github.com/PengtaoJiang/TSP6K/'>code</a> 
+                    /<a href='https://www.jianguoyun.com/p/DZVO0kMQ2tnWChjun6MFIAA'>dataset[password:Wi9qFT]</a> 
+                    <br>
+                  </td>
+                </tr>
+
+            <!--new paper -->
+            <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+                <tr onmouseout="switchnerf_stop()" onmouseover="switchnerf_start()">
+                  <td style="padding:20px;width:25%;vertical-align:middle">
+                    <!-- <div id='ssrnet_anim' class='hidden'>
+                      <a href=""><img src="images/ECCV2012_small.gif"></a>
+                    </div> -->
+                    <div id='switchnerf_still'><img src="imgs/hsr.png" width="200"></div>
+                    <script type="text/javascript">
+                      function switchnerf_start() {
+                        document.getElementById('eccv12_anim').style.display = 'inline';
+                        document.getElementById('eccv12_still').style.display = 'none';
+                      }
+      
+                      function switchnerf_stop() {
+                        document.getElementById('eccv12_anim').style.display = 'none';
+                        document.getElementById('eccv12_still').style.display = 'inline';
+                      }
+                      switchnerf_stop()
+                    </script>
+                  </td>
+                  <td width="75%" valign="middle">
+                     <!-- <a href="switchnerf"> -->
+                    <a href="http://ren-bo.net/papers/qjx_cvpr2023.pdf">
+                        <papertitle>Looking Through the Glass: Neural Surface Reconstruction Against High Specular Reflections</papertitle>
+                    </a>
+                    <br>
+                    Jiaxiong Qiu, <strong><u>Peng-Tao Jiang</u></strong>, Yifan Zhu, Ze-Xin Yin, Ming-Ming Cheng, Bo Ren
+                    <br>
+                    <em>CVPR</em>, 2023
+                    <br>
+                    <!-- <a href="switchnerf">project page</a> / -->
+                    <a href="http://ren-bo.net/papers/qjx_cvpr2023.pdf">paper</a> 
+                    /<a href='https://github.com/JiaxiongQ/NeuS-HSR'>code</a> 
+                    <br>
+                  </td>
+                </tr>
+
+            <!--new paper -->
+            <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+                <tr onmouseout="switchnerf_stop()" onmouseover="switchnerf_start()">
+                  <td style="padding:20px;width:25%;vertical-align:middle">
+                    <!-- <div id='ssrnet_anim' class='hidden'>
+                      <a href=""><img src="images/ECCV2012_small.gif"></a>
+                    </div> -->
+                    <div id='switchnerf_still'><img src="imgs/rd.png" width="200"></div>
+                    <script type="text/javascript">
+                      function switchnerf_start() {
+                        document.getElementById('eccv12_anim').style.display = 'inline';
+                        document.getElementById('eccv12_still').style.display = 'none';
+                      }
+      
+                      function switchnerf_stop() {
+                        document.getElementById('eccv12_anim').style.display = 'none';
+                        document.getElementById('eccv12_still').style.display = 'inline';
+                      }
+                      switchnerf_stop()
+                    </script>
+                  </td>
+                  <td width="75%" valign="middle">
+                     <!-- <a href="switchnerf"> -->
+                    <a href="https://trebuchet.public.springernature.app/get_content/6eca4bb0-2124-40dd-858c-8a5aabe5dd14">
+                        <papertitle>RDNeRF: Relative Depth Guided NeRF for Dense Free View Synthesis</papertitle>
+                    </a>
+                    <br>
+                    Jiaxiong Qiu*, Yifan Zhu*, <strong><u>Peng-Tao Jiang</u></strong>, Ming-Ming Cheng, Bo Ren
+                    <br>
+                    <em>TVC</em>, 2023
+                    <br>
+                    <!-- <a href="switchnerf">project page</a> / -->
+                    <a href="https://trebuchet.public.springernature.app/get_content/6eca4bb0-2124-40dd-858c-8a5aabe5dd14">paper</a> 
+                    /<a href='https://github.com/JiaxiongQ/RDNeRF'>code</a> 
+                    <br>
+                  </td>
+                </tr>
 
 
-<!-- <div style="clear: both;">
-<div class="section">
-<h2> Projects </h2>
+            <!--new paper -->
+            <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
-<div class="paper" id="blade"><img class="paper" src="./imgs/goldwind.png" title="GOLDWIND: Blade Snow Detection">
-<div> <strong>GOLDWIND: Blade Snow Detection</strong><br>
-<strong><u>Brief Description:</u></strong>
-</div>
-<div class="spanner"></div>
-</div>
+                <tr onmouseout="switchnerf_stop()" onmouseover="switchnerf_start()">
+                  <td style="padding:20px;width:25%;vertical-align:middle">
+                    <!-- <div id='ssrnet_anim' class='hidden'>
+                      <a href=""><img src="images/ECCV2012_small.gif"></a>
+                    </div> -->
+                    <div id='switchnerf_still'><img src="imgs/hd.png" width="200"></div>
+                    <script type="text/javascript">
+                      function switchnerf_start() {
+                        document.getElementById('eccv12_anim').style.display = 'inline';
+                        document.getElementById('eccv12_still').style.display = 'none';
+                      }
+      
+                      function switchnerf_stop() {
+                        document.getElementById('eccv12_anim').style.display = 'none';
+                        document.getElementById('eccv12_still').style.display = 'inline';
+                      }
+                      switchnerf_stop()
+                    </script>
+                  </td>
+                  <td width="75%" valign="middle">
+                     <!-- <a href="switchnerf"> -->
+                    <a href="https://mftp.mmcheng.net/Papers/23IJCV_CNNasDT.pdf'">
+                        <papertitle>Deeply Explain CNN via Hierarchical Decomposition</papertitle>
+                    </a>
+                    <br>
+                    Ming-Ming Cheng*, <strong><u>Peng-Tao Jiang*</u></strong>, Ling-Hao Han, Liang Wang, Philip Torr
+                    <br>
+                    <em>IJCV</em>, 2023
+                    <br>
+                    <!-- <a href="switchnerf">project page</a> / -->
+                    <a href="https://mftp.mmcheng.net/Papers/23IJCV_CNNasDT.pdf'">paper</a> 
+                    /<a href='http://mc.nankai.edu.cn/hd/'>demo</a> 
+                    <br>
+                  </td>
+                </tr>
 
 
-<div class="paper" id="face"><img class="paper" src="./imgs/face.jpg" title="">
-<div> <strong>Tianjin Science and Technology Museum: Smiley Face Detection and Style Transfer</strong><br>
-<strong><u>Brief Description:</u></strong>
-</div>
-<div class="spanner"></div>
-</div> -->
+            <!--new paper -->
+            <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+                <tr onmouseout="switchnerf_stop()" onmouseover="switchnerf_start()">
+                  <td style="padding:20px;width:25%;vertical-align:middle">
+                    <!-- <div id='ssrnet_anim' class='hidden'>
+                      <a href=""><img src="images/ECCV2012_small.gif"></a>
+                    </div> -->
+                    <div id='switchnerf_still'><img src="imgs/rd.png" width="200"></div>
+                    <script type="text/javascript">
+                      function switchnerf_start() {
+                        document.getElementById('eccv12_anim').style.display = 'inline';
+                        document.getElementById('eccv12_still').style.display = 'none';
+                      }
+      
+                      function switchnerf_stop() {
+                        document.getElementById('eccv12_anim').style.display = 'none';
+                        document.getElementById('eccv12_still').style.display = 'inline';
+                      }
+                      switchnerf_stop()
+                    </script>
+                  </td>
+                  <td width="75%" valign="middle">
+                     <!-- <a href="switchnerf"> -->
+                    <a href="https://arxiv.org/abs/2204.03206">
+                        <papertitle>L2G: A Simple Local-to-Global Knowledge Transfer Framework for Weakly Supervised Semantic Segmentation</papertitle>
+                    </a>
+                    <br>
+                    <strong><u>Peng-Tao Jiang</u></strong>, Yuqi Yang, Qibin Hou, Yunchao Wei
+                    <br>
+                    <em>CVPR</em>, 2022
+                    <br>
+                    <!-- <a href="switchnerf">project page</a> / -->
+                    <a href="https://arxiv.org/abs/2204.03206">paper</a> 
+                    /<a href='https://github.com/PengtaoJiang/L2G'>code</a> 
+                    <br>
+                  </td>
+                </tr>
+
+            <!--new paper -->
+            <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+                <tr onmouseout="switchnerf_stop()" onmouseover="switchnerf_start()">
+                  <td style="padding:20px;width:25%;vertical-align:middle">
+                    <!-- <div id='ssrnet_anim' class='hidden'>
+                      <a href=""><img src="images/ECCV2012_small.gif"></a>
+                    </div> -->
+                    <div id='switchnerf_still'><img src="imgs/am.jpg" width="200"></div>
+                    <script type="text/javascript">
+                      function switchnerf_start() {
+                        document.getElementById('eccv12_anim').style.display = 'inline';
+                        document.getElementById('eccv12_still').style.display = 'none';
+                      }
+      
+                      function switchnerf_stop() {
+                        document.getElementById('eccv12_anim').style.display = 'none';
+                        document.getElementById('eccv12_still').style.display = 'inline';
+                      }
+                      switchnerf_stop()
+                    </script>
+                  </td>
+                  <td width="75%" valign="middle">
+                     <!-- <a href="switchnerf"> -->
+                    <a href="https://arxiv.org/abs/2111.07624">
+                        <papertitle>Attention mechanisms in computer vision: A survey</papertitle>
+                    </a>
+                    <br>
+                    Meng-Hao Guo, Tian-Xing Xu, Jiang-Jiang Liu, Zheng-Ning Liu, <strong><u>Peng-Tao Jiang</u></strong>, Tai-Jiang Mu, Song-Hai Zhang, Ralph R. Martin, Ming-Ming Cheng, and Shi-Min Hu
+                    <br>
+                    <em>CVMJ</em>, 2022
+                    <br>
+                    <!-- <a href="switchnerf">project page</a> / -->
+                    <a href="https://arxiv.org/abs/2111.07624">paper</a> 
+                    /<a href='https://github.com/MenghaoGuo/Awesome-Vision-Attentions'>code</a> 
+                    /<a href='https://www.springer.com/journal/41095/updates/25223320'><strong><font color="#FF0000">Best Paper Award</strong></a>
+                    <br>
+                  </td>
+                </tr>
 
 
-<!-- <div style="clear: both;">
-<div class="section">
-<h2 id="confpapers">Awards</h2>
-<div class="paper">
-    <ul>
-  <li> Special Scholarship, Xidian University, 2016. </li>
-  <li> Meritorious Winner in International Mathematical Contest in Modeling, 2015. </li>  
-  <li> National National Endeavor Scholarship, Xidian University, 2014. </li>
-    </ul>
-</div>
-</div>
-</div> -->
+            <!--new paper -->
+            <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
-<div style="clear: both;">
-<div class="section">
-<h2 id="confpapers">Professional Activities</h2>
-<div class="paper">
-<ul>
-<p><font size="5">
-  <li> Reviewer for TPAMI, TIP, IJCV, IJCAI, IJAC, NeurIPS, CVPR, ICCV, ICML, AAAI, PRCV </li>        
-<!-- <div id="clustrmaps-widget"></div><script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=150&t=m&d=IF-jAGUNTygi5pa59hxIgtJU2XqT-rGoO58Z3E1vHZk'></script> -->
- 
+                <tr onmouseout="switchnerf_stop()" onmouseover="switchnerf_start()">
+                  <td style="padding:20px;width:25%;vertical-align:middle">
+                    <!-- <div id='ssrnet_anim' class='hidden'>
+                      <a href=""><img src="images/ECCV2012_small.gif"></a>
+                    </div> -->
+                    <div id='switchnerf_still'><img src="imgs/piss.png" width="200"></div>
+                    <script type="text/javascript">
+                      function switchnerf_start() {
+                        document.getElementById('eccv12_anim').style.display = 'inline';
+                        document.getElementById('eccv12_still').style.display = 'none';
+                      }
+      
+                      function switchnerf_stop() {
+                        document.getElementById('eccv12_anim').style.display = 'none';
+                        document.getElementById('eccv12_still').style.display = 'inline';
+                      }
+                      switchnerf_stop()
+                    </script>
+                  </td>
+                  <td width="75%" valign="middle">
+                     <!-- <a href="switchnerf"> -->
+                    <a href="https://arxiv.org/pdf/2107.13978">
+                        <papertitle>Personalized Image Semantic Segmentation"</papertitle>
+                    </a>
+                    <br>
+                    Yu Zhang, Chang-bin Zhang, <strong><u>Peng-Tao Jiang</u></strong>, Feng Mao, Ming-Ming Cheng
+                    <br>
+                    <em>ICCV</em>, 2021
+                    <br>
+                    <!-- <a href="switchnerf">project page</a> / -->
+                    <a href="https://arxiv.org/pdf/2107.13978">paper</a> 
+                    /<a href='https://github.com/zhangyuygss/PIS'>code</a> 
+                    <br>
+                  </td>
+                </tr>
+
+            <!--new paper -->
+            <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+                <tr onmouseout="switchnerf_stop()" onmouseover="switchnerf_start()">
+                  <td style="padding:20px;width:25%;vertical-align:middle">
+                    <div id='switchnerf_still'><img src="imgs/oaa++.png" width="200"></div>
+                  </td>
+                  <td width="75%" valign="middle">
+                     <!-- <a href="switchnerf"> -->
+                    <a href="https://mftp.mmcheng.net/Papers/21PAMI-OAA_PAMI.pdf">
+                        <papertitle>Online Attention Accumulation for Weakly Supervised Semantic Segmentation</papertitle>
+                    </a>
+                    <br>
+                    <strong><u>Peng-Tao Jiang*</u></strong>, Ling-Hao Han*, Qibin Hou, Ming-Ming Cheng, Yunchao Wei
+                    <br>
+                    <em>TPAMI</em>, 2021
+                    <br>
+                    <!-- <a href="switchnerf">project page</a> / -->
+                    <a href="https://mftp.mmcheng.net/Papers/21PAMI-OAA_PAMI.pdf">paper</a> 
+                    /<a href=''>code</a> 
+                    <br>
+                  </td>
+                </tr>
+
+            <!--new paper -->
+            <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+                <tr onmouseout="switchnerf_stop()" onmouseover="switchnerf_start()">
+                  <td style="padding:20px;width:25%;vertical-align:middle">
+                    <div id='switchnerf_still'><img src="imgs/ols.png" width="200"></div>
+                  </td>
+                  <td width="75%" valign="middle">
+                     <!-- <a href="switchnerf"> -->
+                    <a href="https://arxiv.org/abs/2011.12562">
+                        <papertitle>Delving Deep into Label Smoothing</papertitle>
+                    </a>
+                    <br>
+                    Chang-bin Zhang*, <strong><u>Peng-Tao Jiang*</u></strong>, Qibin Hou, Yunchao Wei, Qi Han, Zhen Li, Ming-Ming Cheng 
+                    <br>
+                    <em>TIP</em>, 2021
+                    <br>
+                    <!-- <a href="switchnerf">project page</a> / -->
+                    <a href="https://arxiv.org/abs/2011.12562">paper</a> 
+                    /<a href='https://github.com/zhangchbin/OnlineLabelSmoothing'>code</a> 
+                    <br>
+                  </td>
+                </tr>
+
+
+            <!--new paper -->
+            <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+                <tr onmouseout="switchnerf_stop()" onmouseover="switchnerf_start()">
+                  <td style="padding:20px;width:25%;vertical-align:middle">
+                    <div id='switchnerf_still'><img src="imgs/layerCAM1.png" width="200"></div>
+                  </td>
+                  <td width="75%" valign="middle">
+                     <!-- <a href="switchnerf"> -->
+                    <a href="http://mftp.mmcheng.net/Papers/21TIP_LayerCAM.pdf">
+                        <papertitle>LayerCAM: Exploring Hierarchical Class Activation Maps for Localization</papertitle>
+                    </a>
+                    <br>
+                    <strong><u>Peng-Tao Jiang*</u></strong>, Chang-bin Zhang*, Qibin Hou, Ming-Ming Cheng, Yunchao Wei
+                    <br>
+                    <em>TIP</em>, 2021
+                    <br>
+                    <!-- <a href="switchnerf">project page</a> / -->
+                    <a href="http://mftp.mmcheng.net/Papers/21TIP_LayerCAM.pdf">paper</a> 
+                    /<a href='https://github.com/PengtaoJiang/LayerCAM'>code</a> 
+                    <br>
+                  </td>
+                </tr>
+
+            <!--new paper -->
+            <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+                <tr onmouseout="switchnerf_stop()" onmouseover="switchnerf_start()">
+                  <td style="padding:20px;width:25%;vertical-align:middle">
+                    <div id='switchnerf_still'><img src="imgs/oaa.png" width="200"></div>
+                  </td>
+                  <td width="75%" valign="middle">
+                     <!-- <a href="switchnerf"> -->
+                    <a href="https://openaccess.thecvf.com/content_ICCV_2019/papers/Jiang_Integral_Object_Mining_via_Online_Attention_Accumulation_ICCV_2019_paper.pdf">
+                        <papertitle>Integral Object Mining via Online Attention Accumulation</papertitle>
+                    </a>
+                    <br>
+                    <strong><u>Peng-Tao Jiang</u></strong>, Qibin Hou, Yang Cao, Ming-Ming Cheng, Yunchao Wei, Hongkai Xiong
+                    <br>
+                    <em>ICCV</em>, 2019
+                    <br>
+                    <!-- <a href="switchnerf">project page</a> / -->
+                    <a href="https://openaccess.thecvf.com/content_ICCV_2019/papers/Jiang_Integral_Object_Mining_via_Online_Attention_Accumulation_ICCV_2019_paper.pdf">paper</a> 
+                    /<a href='https://github.com/PengtaoJiang/OAA'>code</a> 
+                    /<a href='https://mmcheng.net/oaa/'>project</a> 
+                    <br>
+                  </td>
+                </tr>
+
+
+            <!--new paper -->
+            <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+                <tr onmouseout="switchnerf_stop()" onmouseover="switchnerf_start()">
+                  <td style="padding:20px;width:25%;vertical-align:middle">
+                    <div id='switchnerf_still'><img src="imgs/seenet.png" width="200"></div>
+                  </td>
+                  <td width="75%" valign="middle">
+                     <!-- <a href="switchnerf"> -->
+                    <a href="https://papers.nips.cc/paper/2018/file/c042f4db68f23406c6cecf84a7ebb0fe-Paper.pdf">
+                        <papertitle>Self-Erasing Network for Integral Object Attention</papertitle>
+                    </a>
+                    <br>
+                    Qibin Hou, <strong><u>Peng-Tao Jiang</u></strong>, Yunchao Wei, Ming-Ming Cheng
+                    <br>
+                    <em>NeurIPS</em>, 2018
+                    <br>
+                    <!-- <a href="switchnerf">project page</a> / -->
+                    <a href="https://papers.nips.cc/paper/2018/file/c042f4db68f23406c6cecf84a7ebb0fe-Paper.pdf">paper</a> 
+                    /<a href='https://github.com/Andrew-Qibin/SeeNet'>code</a> 
+                    <br>
+                  </td>
+                </tr>
+
+            <!--new paper -->
+            <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+                <tr onmouseout="switchnerf_stop()" onmouseover="switchnerf_start()">
+                  <td style="padding:20px;width:25%;vertical-align:middle">
+                    <div id='switchnerf_still'><img src="imgs/del.png" width="200"></div>
+                  </td>
+                  <td width="75%" valign="middle">
+                     <!-- <a href="switchnerf"> -->
+                    <a href="https://www.ijcai.org/Proceedings/2018/0120.pdf">
+                        <papertitle>DEL: Deep Embedding Learning for Efficient Image Segmentation</papertitle>
+                    </a>
+                    <br>
+                    Yun Liu, <strong><u>Peng-Tao Jiang</u></strong>, Vahan Petrosyan, Shi-Jie Li, Jiawang Bian, Le Zhang, and Ming-Ming Cheng <br>                  
+                    <em>IJCAI</em>, 2018
+                    <br>
+                    <!-- <a href="switchnerf">project page</a> / -->
+                    <a href="https://www.ijcai.org/Proceedings/2018/0120.pdf">paper</a> 
+                    /<a href='https://github.com/yun-liu/del/'>code</a> 
+                    <br>
+                  </td>
+                </tr>
+
+
+ <a id="industry"></a>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr>
+          <td style="padding:20px;width:100%;vertical-align:middle">
+            <heading>Industry </heading>
+          </td>
+        </tr>
+      </tbody></table>
+
+        <table width="100%" align="center" border="0" cellpadding="20">
+          <tbody>
+            <tr>
+              <!-- <td style="padding:20px;width:25%;vertical-align:middle"> -->
+                <!-- <img src="main_page/images/teaching.png" width="160"> -->
+              <!-- </td> -->
+              <!-- <td width="100%" valign="center" style="line-height: 15px;"> -->
+              <td width="100%" style="width:100%; padding:0 0px;">
+                <ul class="navlist">
+			<li><strong>vivo</strong>
+        <i>2023.05-now, Lead Researcher</i><br> Develop new AI algorithms for mobile photography.</li>
+                </ul>
+                <ul class="navlist">
+			<li><strong>Tencent YouTu</strong> <i>2022.02-2022.05, Research Intern</i><br> Research: plam keypoint detection and object detection.</li>
+            <li><strong>SenseTime</strong> <i>2018.11-2019.04, Research Intern</i><br> Research: change detection.</li>
+                </ul>
+            </ul>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+
+
+        <a id="service"></a>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr>
+          <td style="padding:20px;width:100%;vertical-align:middle">
+            <heading>Academic Service</heading>
+          </td>
+        </tr>
+      </tbody></table>
+
+
+        <table width="100%" align="center" border="0" cellpadding="20">
+          <tbody>
+            <tr>
+              <!-- <td style="padding:20px;width:25%;vertical-align:middle"> -->
+                <!-- <img src="main_page/images/teaching.png" width="160"> -->
+              <!-- </td> -->
+              <!-- <td width="100%" valign="center" style="line-height: 15px;"> -->
+              <td width="100%" style="width:100%; padding:0 0px;">
+                <ul class="navlist">
+                  <li>Reviewer for TPAMI, TIP, CVPR, ICCV, ECCV, NeurIPS, ICLR, ICML, MM, etc. </li>
+                  <li>Area Chair for ICLR2026. </li>
+                </ul>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+
+
+
+        <table width="15%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
+          <tr>
+            <td>
+                <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=hLDNoYVofBhbKR4FKB4PUIK-crHUDAsGReQye2zZR28"></script>
+            </td>
+          </tr>
+        </tbody></table>
+
+
+        </tbody></table>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr>
+            <td style="padding:0px">
+              <br>
+              <p style="text-align:right;font-size:small;">
+                Thanks for the source codes from <a href="https://yangcaoai.github.io/">Yang Cao</a>, <a href="https://jonbarron.info/">Jon Barron</a>
+              </p>
+            </td>
+          </tr>
+        </tbody></table>
+
+
+  </table>
+
+
+
+
+
 </body>
+
 </html>
